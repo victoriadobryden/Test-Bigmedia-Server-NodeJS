@@ -1,0 +1,788 @@
+[{
+  "name": "CostEstimateIndexIncMargeenEB",
+  "id": "69e746a4-5fd6-4432-b53a-a54d2236344d",
+  "rules": [{
+    "rulesGroupId": "69e746a4-5fd6-4432-b53a-a54d2236344d",
+    "suppliers": [1],
+    "type": "percentDiscount",
+    "value": 40,
+    "marginType": "zeroMarkup",
+    "marginValue": null,
+    "marginRoundType": null,
+    "id": 539,
+    "lookup": {
+      "suppliers": {
+        "1": 1
+      }
+    },
+    "conditionText": "BIGMEDIA",
+    "valueText": "-40%",
+    "description": "Застосовані умови для знижки:<br>Саплаєри (1): BIGMEDIA<br>Відсоткова знижка (%) -40%"
+  }, {
+    "rulesGroupId": "69e746a4-5fd6-4432-b53a-a54d2236344d",
+    "suppliers": [20506],
+    "type": "percentDiscount",
+    "value": 10,
+    "marginType": "percentMargin",
+    "marginValue": 15,
+    "marginRoundType": "ceilBy100",
+    "id": 540,
+    "lookup": {
+      "suppliers": {
+        "20506": 20506
+      }
+    },
+    "conditionText": "БІОФОРС",
+    "valueText": "-10%",
+    "description": "Застосовані умови для знижки:<br>Саплаєри (1): БІОФОРС<br>Відсоткова знижка (%) -10%"
+  }, {
+    "rulesGroupId": "69e746a4-5fd6-4432-b53a-a54d2236344d",
+    "suppliers": [20509],
+    "cities": [14],
+    "type": "percentDiscount",
+    "value": 20,
+    "marginType": "percentMargin",
+    "marginValue": 15,
+    "marginRoundType": "ceilBy100",
+    "id": 541,
+    "lookup": {
+      "suppliers": {
+        "20509": 20509
+      },
+      "cities": {
+        "14": 14
+      }
+    },
+    "conditionText": "СВ АУТДОР|Суми",
+    "valueText": "-20%",
+    "description": "Застосовані умови для знижки:<br>Саплаєри (1): СВ АУТДОР<br>Міста (1): Суми<br>Відсоткова знижка (%) -20%"
+  }, {
+    "rulesGroupId": "69e746a4-5fd6-4432-b53a-a54d2236344d",
+    "suppliers": [20509],
+    "cities": [1, 54],
+    "sizes": [39],
+    "type": "percentDiscount",
+    "value": 25,
+    "marginType": "percentMargin",
+    "marginValue": 15,
+    "marginRoundType": "ceilBy100",
+    "id": 542,
+    "lookup": {
+      "suppliers": {
+        "20509": 20509
+      },
+      "cities": {
+        "1": 1,
+        "54": 54
+      },
+      "sizes": {
+        "39": 39
+      }
+    },
+    "conditionText": "СВ АУТДОР|Київ,Траси Києва|4x12",
+    "valueText": "-25%",
+    "description": "Застосовані умови для знижки:<br>Саплаєри (1): СВ АУТДОР<br>Міста (2): Київ,Траси Києва<br>Розміри (1): 4x12<br>Відсоткова знижка (%) -25%"
+  }, {
+    "rulesGroupId": "69e746a4-5fd6-4432-b53a-a54d2236344d",
+    "suppliers": [20509],
+    "cities": [1, 54],
+    "sizes": [36, 7],
+    "type": "percentDiscount",
+    "value": 30,
+    "marginType": "percentMargin",
+    "marginValue": 15,
+    "marginRoundType": "ceilBy100",
+    "id": 543,
+    "lookup": {
+      "suppliers": {
+        "20509": 20509
+      },
+      "cities": {
+        "1": 1,
+        "54": 54
+      },
+      "sizes": {
+        "7": 7,
+        "36": 36
+      }
+    },
+    "conditionText": "СВ АУТДОР|Київ,Траси Києва|4x8,8x4",
+    "valueText": "-30%",
+    "description": "Застосовані умови для знижки:<br>Саплаєри (1): СВ АУТДОР<br>Міста (2): Київ,Траси Києва<br>Розміри (2): 4x8,8x4<br>Відсоткова знижка (%) -30%"
+  }, {
+    "rulesGroupId": "69e746a4-5fd6-4432-b53a-a54d2236344d",
+    "suppliers": [20509],
+    "cities": [1, 54],
+    "sizes": [8, 1, 41],
+    "type": "percentDiscount",
+    "value": 20,
+    "marginType": "percentMargin",
+    "marginValue": 15,
+    "marginRoundType": "ceilBy100",
+    "id": 544,
+    "lookup": {
+      "suppliers": {
+        "20509": 20509
+      },
+      "cities": {
+        "1": 1,
+        "54": 54
+      },
+      "sizes": {
+        "1": 1,
+        "8": 8,
+        "41": 41
+      }
+    },
+    "conditionText": "СВ АУТДОР|Київ,Траси Києва|3x6,6x3,2x4",
+    "valueText": "-20%",
+    "description": "Застосовані умови для знижки:<br>Саплаєри (1): СВ АУТДОР<br>Міста (2): Київ,Траси Києва<br>Розміри (3): 3x6,6x3,2x4<br>Відсоткова знижка (%) -20%"
+  }, {
+    "rulesGroupId": "69e746a4-5fd6-4432-b53a-a54d2236344d",
+    "suppliers": [20509],
+    "cities": [1],
+    "sizes": [42, 40],
+    "type": "percentDiscount",
+    "value": 40,
+    "marginType": "percentMargin",
+    "marginValue": 15,
+    "marginRoundType": "ceilBy100",
+    "id": 545,
+    "lookup": {
+      "suppliers": {
+        "20509": 20509
+      },
+      "cities": {
+        "1": 1
+      },
+      "sizes": {
+        "40": 40,
+        "42": 42
+      }
+    },
+    "conditionText": "СВ АУТДОР|Київ|2x16,2x8",
+    "valueText": "-40%",
+    "description": "Застосовані умови для знижки:<br>Саплаєри (1): СВ АУТДОР<br>Міста (1): Київ<br>Розміри (2): 2x16,2x8<br>Відсоткова знижка (%) -40%"
+  }, {
+    "rulesGroupId": "69e746a4-5fd6-4432-b53a-a54d2236344d",
+    "suppliers": [20509],
+    "cities": [1],
+    "sizes": [34, 14],
+    "sidetypes": [],
+    "type": "percentDiscount",
+    "value": 40,
+    "marginType": "percentMargin",
+    "marginValue": 15,
+    "marginRoundType": "ceilBy100",
+    "id": 546,
+    "lookup": {
+      "suppliers": {
+        "20509": 20509
+      },
+      "cities": {
+        "1": 1
+      },
+      "sizes": {
+        "14": 14,
+        "34": 34
+      }
+    },
+    "conditionText": "СВ АУТДОР|Київ|2.3x3.5,2.3x3.14",
+    "valueText": "-40%",
+    "description": "Застосовані умови для знижки:<br>Саплаєри (1): СВ АУТДОР<br>Міста (1): Київ<br>Розміри (2): 2.3x3.5,2.3x3.14<br>Відсоткова знижка (%) -40%"
+  }, {
+    "rulesGroupId": "69e746a4-5fd6-4432-b53a-a54d2236344d",
+    "suppliers": [20509],
+    "cities": [1],
+    "sizes": [13],
+    "type": "percentDiscount",
+    "value": 40,
+    "marginType": "percentMargin",
+    "marginValue": 15,
+    "marginRoundType": "ceilBy100",
+    "id": 547,
+    "lookup": {
+      "suppliers": {
+        "20509": 20509
+      },
+      "cities": {
+        "1": 1
+      },
+      "sizes": {
+        "13": 13
+      }
+    },
+    "conditionText": "СВ АУТДОР|Київ|1.2x1.8",
+    "valueText": "-40%",
+    "description": "Застосовані умови для знижки:<br>Саплаєри (1): СВ АУТДОР<br>Міста (1): Київ<br>Розміри (1): 1.2x1.8<br>Відсоткова знижка (%) -40%"
+  }, {
+    "rulesGroupId": "69e746a4-5fd6-4432-b53a-a54d2236344d",
+    "suppliers": [20512],
+    "type": "percentDiscount",
+    "value": 40,
+    "marginType": "percentMargin",
+    "marginValue": 15,
+    "marginRoundType": "ceilBy100",
+    "id": 548,
+    "lookup": {
+      "suppliers": {
+        "20512": 20512
+      }
+    },
+    "conditionText": "ГАЛИЦЬКІ КОНТРАКТИ",
+    "valueText": "-40%",
+    "description": "Застосовані умови для знижки:<br>Саплаєри (1): ГАЛИЦЬКІ КОНТРАКТИ<br>Відсоткова знижка (%) -40%"
+  }, {
+    "rulesGroupId": "69e746a4-5fd6-4432-b53a-a54d2236344d",
+    "suppliers": [20562],
+    "type": "percentDiscount",
+    "value": 20,
+    "marginType": "percentMargin",
+    "marginValue": 15,
+    "marginRoundType": "ceilBy100",
+    "id": 549,
+    "lookup": {
+      "suppliers": {
+        "20562": 20562
+      }
+    },
+    "conditionText": "СЕАН",
+    "valueText": "-20%",
+    "description": "Застосовані умови для знижки:<br>Саплаєри (1): СЕАН<br>Відсоткова знижка (%) -20%"
+  }, {
+    "rulesGroupId": "69e746a4-5fd6-4432-b53a-a54d2236344d",
+    "suppliers": [20575],
+    "type": "percentDiscount",
+    "value": 50,
+    "marginType": "percentMargin",
+    "marginValue": 15,
+    "marginRoundType": "ceilBy100",
+    "id": 550,
+    "lookup": {
+      "suppliers": {
+        "20575": 20575
+      }
+    },
+    "conditionText": "ЛУВЕРС",
+    "valueText": "-50%",
+    "description": "Застосовані умови для знижки:<br>Саплаєри (1): ЛУВЕРС<br>Відсоткова знижка (%) -50%"
+  }, {
+    "rulesGroupId": "69e746a4-5fd6-4432-b53a-a54d2236344d",
+    "suppliers": [20582],
+    "type": "percentDiscount",
+    "value": 20,
+    "marginType": "percentMargin",
+    "marginValue": 15,
+    "marginRoundType": "ceilBy100",
+    "id": 551,
+    "lookup": {
+      "suppliers": {
+        "20582": 20582
+      }
+    },
+    "conditionText": "САС",
+    "valueText": "-20%",
+    "description": "Застосовані умови для знижки:<br>Саплаєри (1): САС<br>Відсоткова знижка (%) -20%"
+  }, {
+    "rulesGroupId": "69e746a4-5fd6-4432-b53a-a54d2236344d",
+    "suppliers": [20588],
+    "type": "percentDiscount",
+    "value": 30,
+    "marginType": "percentMargin",
+    "marginValue": 15,
+    "marginRoundType": "ceilBy100",
+    "id": 552,
+    "lookup": {
+      "suppliers": {
+        "20588": 20588
+      }
+    },
+    "conditionText": "A-PETROL",
+    "valueText": "-30%",
+    "description": "Застосовані умови для знижки:<br>Саплаєри (1): A-PETROL<br>Відсоткова знижка (%) -30%"
+  }, {
+    "rulesGroupId": "69e746a4-5fd6-4432-b53a-a54d2236344d",
+    "suppliers": [20591],
+    "type": "percentDiscount",
+    "value": 40,
+    "marginType": "percentMargin",
+    "marginValue": 15,
+    "marginRoundType": "ceilBy100",
+    "id": 553,
+    "lookup": {
+      "suppliers": {
+        "20591": 20591
+      }
+    },
+    "conditionText": "ПЕРЕХІД АУТДОР ДП",
+    "valueText": "-40%",
+    "description": "Застосовані умови для знижки:<br>Саплаєри (1): ПЕРЕХІД АУТДОР ДП<br>Відсоткова знижка (%) -40%"
+  }, {
+    "rulesGroupId": "69e746a4-5fd6-4432-b53a-a54d2236344d",
+    "suppliers": [20605],
+    "type": "percentDiscount",
+    "value": 45,
+    "marginType": "percentMargin",
+    "marginValue": 15,
+    "marginRoundType": "ceilBy100",
+    "id": 554,
+    "lookup": {
+      "suppliers": {
+        "20605": 20605
+      }
+    },
+    "conditionText": "НАРУЖКА",
+    "valueText": "-45%",
+    "description": "Застосовані умови для знижки:<br>Саплаєри (1): НАРУЖКА<br>Відсоткова знижка (%) -45%"
+  }, {
+    "rulesGroupId": "69e746a4-5fd6-4432-b53a-a54d2236344d",
+    "suppliers": [23168],
+    "type": "percentDiscount",
+    "value": 50,
+    "marginType": "percentMargin",
+    "marginValue": 15,
+    "marginRoundType": "ceilBy100",
+    "id": 555,
+    "lookup": {
+      "suppliers": {
+        "23168": 23168
+      }
+    },
+    "conditionText": "ДОВІРА АУТДОР",
+    "valueText": "-50%",
+    "description": "Застосовані умови для знижки:<br>Саплаєри (1): ДОВІРА АУТДОР<br>Відсоткова знижка (%) -50%"
+  }, {
+    "rulesGroupId": "69e746a4-5fd6-4432-b53a-a54d2236344d",
+    "suppliers": [23562],
+    "type": "percentDiscount",
+    "value": 10,
+    "marginType": "percentMargin",
+    "marginValue": 15,
+    "marginRoundType": "ceilBy100",
+    "id": 556,
+    "lookup": {
+      "suppliers": {
+        "23562": 23562
+      }
+    },
+    "conditionText": "СТ-РЕКЛАМА",
+    "valueText": "-10%",
+    "description": "Застосовані умови для знижки:<br>Саплаєри (1): СТ-РЕКЛАМА<br>Відсоткова знижка (%) -10%"
+  }, {
+    "rulesGroupId": "69e746a4-5fd6-4432-b53a-a54d2236344d",
+    "suppliers": [24818],
+    "type": "percentDiscount",
+    "value": 30,
+    "marginType": "percentMargin",
+    "marginValue": 15,
+    "marginRoundType": "ceilBy100",
+    "id": 557,
+    "lookup": {
+      "suppliers": {
+        "24818": 24818
+      }
+    },
+    "conditionText": "КРАШ",
+    "valueText": "-30%",
+    "description": "Застосовані умови для знижки:<br>Саплаєри (1): КРАШ<br>Відсоткова знижка (%) -30%"
+  }, {
+    "rulesGroupId": "69e746a4-5fd6-4432-b53a-a54d2236344d",
+    "suppliers": [24384],
+    "type": "percentDiscount",
+    "value": 10,
+    "marginType": "percentMargin",
+    "marginValue": 15,
+    "marginRoundType": "ceilBy100",
+    "id": 558,
+    "lookup": {
+      "suppliers": {
+        "24384": 24384
+      }
+    },
+    "conditionText": "ФАБРИКА РЕКЛАМИ",
+    "valueText": "-10%",
+    "description": "Застосовані умови для знижки:<br>Саплаєри (1): ФАБРИКА РЕКЛАМИ<br>Відсоткова знижка (%) -10%"
+  }, {
+    "rulesGroupId": "69e746a4-5fd6-4432-b53a-a54d2236344d",
+    "suppliers": [21657],
+    "type": "fixedDiscount",
+    "value": 500,
+    "marginType": "percentMargin",
+    "marginValue": 15,
+    "marginRoundType": "ceilBy100",
+    "id": 559,
+    "lookup": {
+      "suppliers": {
+        "21657": 21657
+      }
+    },
+    "conditionText": "GOLD FUTURE",
+    "valueText": "-500 UAH",
+    "description": "Застосовані умови для знижки:<br>Саплаєри (1): GOLD FUTURE<br>Знижка (UAH) -500 UAH"
+  }, {
+    "rulesGroupId": "69e746a4-5fd6-4432-b53a-a54d2236344d",
+    "suppliers": [21605],
+    "type": "percentDiscount",
+    "value": 5,
+    "marginType": "percentMargin",
+    "marginValue": 15,
+    "marginRoundType": "ceilBy100",
+    "id": 560,
+    "lookup": {
+      "suppliers": {
+        "21605": 21605
+      }
+    },
+    "conditionText": "ЗГІА",
+    "valueText": "-5%",
+    "description": "Застосовані умови для знижки:<br>Саплаєри (1): ЗГІА<br>Відсоткова знижка (%) -5%"
+  }, {
+    "rulesGroupId": "69e746a4-5fd6-4432-b53a-a54d2236344d",
+    "suppliers": [25124],
+    "type": "percentDiscount",
+    "value": 10,
+    "marginType": "percentMargin",
+    "marginValue": 15,
+    "marginRoundType": "ceilBy100",
+    "id": 561,
+    "lookup": {
+      "suppliers": {
+        "25124": 25124
+      }
+    },
+    "conditionText": "БОРДИ УКРАЇНИ МЕДІА",
+    "valueText": "-10%",
+    "description": "Застосовані умови для знижки:<br>Саплаєри (1): БОРДИ УКРАЇНИ МЕДІА<br>Відсоткова знижка (%) -10%"
+  }, {
+    "rulesGroupId": "69e746a4-5fd6-4432-b53a-a54d2236344d",
+    "suppliers": [21639],
+    "type": "percentDiscount",
+    "value": 20,
+    "marginType": "percentMargin",
+    "marginValue": 15,
+    "marginRoundType": "ceilBy100",
+    "id": 562,
+    "lookup": {
+      "suppliers": {
+        "21639": 21639
+      }
+    },
+    "conditionText": "ЕЛІЗІЯ",
+    "valueText": "-20%",
+    "description": "Застосовані умови для знижки:<br>Саплаєри (1): ЕЛІЗІЯ<br>Відсоткова знижка (%) -20%"
+  }, {
+    "rulesGroupId": "69e746a4-5fd6-4432-b53a-a54d2236344d",
+    "suppliers": [23730],
+    "type": "percentDiscount",
+    "value": 15,
+    "marginType": "percentMargin",
+    "marginValue": 15,
+    "marginRoundType": "ceilBy100",
+    "id": 563,
+    "lookup": {
+      "suppliers": {
+        "23730": 23730
+      }
+    },
+    "conditionText": "БУМЕРАНГ",
+    "valueText": "-15%",
+    "description": "Застосовані умови для знижки:<br>Саплаєри (1): БУМЕРАНГ<br>Відсоткова знижка (%) -15%"
+  }, {
+    "rulesGroupId": "69e746a4-5fd6-4432-b53a-a54d2236344d",
+    "suppliers": [20583],
+    "type": "percentDiscount",
+    "value": 13,
+    "marginType": "percentMargin",
+    "marginValue": 15,
+    "marginRoundType": "ceilBy100",
+    "id": 564,
+    "lookup": {
+      "suppliers": {
+        "20583": 20583
+      }
+    },
+    "conditionText": "ВІАЛ МЕДІА",
+    "valueText": "-13%",
+    "description": "Застосовані умови для знижки:<br>Саплаєри (1): ВІАЛ МЕДІА<br>Відсоткова знижка (%) -13%"
+  }, {
+    "rulesGroupId": "69e746a4-5fd6-4432-b53a-a54d2236344d",
+    "suppliers": [20754],
+    "type": "percentDiscount",
+    "value": 0,
+    "marginType": "percentMargin",
+    "marginValue": 15,
+    "marginRoundType": "ceilBy100",
+    "id": 565,
+    "lookup": {
+      "suppliers": {
+        "20754": 20754
+      }
+    },
+    "conditionText": "РЕКЛАМА СЕРВІС",
+    "valueText": "-0%",
+    "description": "Застосовані умови для знижки:<br>Саплаєри (1): РЕКЛАМА СЕРВІС<br>Відсоткова знижка (%) -0%"
+  }, {
+    "rulesGroupId": "69e746a4-5fd6-4432-b53a-a54d2236344d",
+    "suppliers": [20586],
+    "type": "percentDiscount",
+    "value": 20,
+    "marginType": "percentMargin",
+    "marginValue": 15,
+    "marginRoundType": "ceilBy100",
+    "id": 566,
+    "lookup": {
+      "suppliers": {
+        "20586": 20586
+      }
+    },
+    "conditionText": "БОНА МЕНТЕ",
+    "valueText": "-20%",
+    "description": "Застосовані умови для знижки:<br>Саплаєри (1): БОНА МЕНТЕ<br>Відсоткова знижка (%) -20%"
+  }, {
+    "rulesGroupId": "69e746a4-5fd6-4432-b53a-a54d2236344d",
+    "suppliers": [20777],
+    "type": "percentDiscount",
+    "value": 15,
+    "marginType": "percentMargin",
+    "marginValue": 15,
+    "marginRoundType": "ceilBy100",
+    "id": 567,
+    "lookup": {
+      "suppliers": {
+        "20777": 20777
+      }
+    },
+    "conditionText": "КОММЕРЦ ЕВОЛЮШН",
+    "valueText": "-15%",
+    "description": "Застосовані умови для знижки:<br>Саплаєри (1): КОММЕРЦ ЕВОЛЮШН<br>Відсоткова знижка (%) -15%"
+  }, {
+    "rulesGroupId": "69e746a4-5fd6-4432-b53a-a54d2236344d",
+    "suppliers": [24377],
+    "type": "percentDiscount",
+    "value": 12,
+    "marginType": "percentMargin",
+    "marginValue": 15,
+    "marginRoundType": "ceilBy100",
+    "id": 568,
+    "lookup": {
+      "suppliers": {
+        "24377": 24377
+      }
+    },
+    "conditionText": "БІЛЛБОРД",
+    "valueText": "-12%",
+    "description": "Застосовані умови для знижки:<br>Саплаєри (1): БІЛЛБОРД<br>Відсоткова знижка (%) -12%"
+  }, {
+    "rulesGroupId": "69e746a4-5fd6-4432-b53a-a54d2236344d",
+    "suppliers": [25979],
+    "type": "percentDiscount",
+    "value": 10,
+    "marginType": "percentMargin",
+    "marginValue": 15,
+    "marginRoundType": "ceilBy100",
+    "id": 569,
+    "lookup": {
+      "suppliers": {
+        "25979": 25979
+      }
+    },
+    "conditionText": "БІГ-ІНФО",
+    "valueText": "-10%",
+    "description": "Застосовані умови для знижки:<br>Саплаєри (1): БІГ-ІНФО<br>Відсоткова знижка (%) -10%"
+  }, {
+    "rulesGroupId": "69e746a4-5fd6-4432-b53a-a54d2236344d",
+    "suppliers": [20410],
+    "type": "percentDiscount",
+    "value": 30,
+    "marginType": "percentMargin",
+    "marginValue": 15,
+    "marginRoundType": "ceilBy100",
+    "id": 570,
+    "lookup": {
+      "suppliers": {
+        "20410": 20410
+      }
+    },
+    "conditionText": "ДНІПРОВІЖН",
+    "valueText": "-30%",
+    "description": "Застосовані умови для знижки:<br>Саплаєри (1): ДНІПРОВІЖН<br>Відсоткова знижка (%) -30%"
+  }, {
+    "rulesGroupId": "69e746a4-5fd6-4432-b53a-a54d2236344d",
+    "suppliers": [23349],
+    "sizes": [1],
+    "type": "percentDiscount",
+    "value": 35,
+    "marginType": "percentMargin",
+    "marginValue": 15,
+    "marginRoundType": "ceilBy100",
+    "id": 571,
+    "lookup": {
+      "suppliers": {
+        "23349": 23349
+      },
+      "sizes": {
+        "1": 1
+      }
+    },
+    "conditionText": "АЛЬХОР АУТДОР|3x6",
+    "valueText": "-35%",
+    "description": "Застосовані умови для знижки:<br>Саплаєри (1): АЛЬХОР АУТДОР<br>Розміри (1): 3x6<br>Відсоткова знижка (%) -35%"
+  }, {
+    "rulesGroupId": "69e746a4-5fd6-4432-b53a-a54d2236344d",
+    "suppliers": [23349],
+    "type": "percentDiscount",
+    "value": 45,
+    "marginType": "percentMargin",
+    "marginValue": 15,
+    "marginRoundType": "ceilBy100",
+    "id": 572,
+    "lookup": {
+      "suppliers": {
+        "23349": 23349
+      }
+    },
+    "conditionText": "АЛЬХОР АУТДОР",
+    "valueText": "-45%",
+    "description": "Застосовані умови для знижки:<br>Саплаєри (1): АЛЬХОР АУТДОР<br>Відсоткова знижка (%) -45%"
+  }, {
+    "rulesGroupId": "69e746a4-5fd6-4432-b53a-a54d2236344d",
+    "suppliers": [24410],
+    "type": "percentDiscount",
+    "value": 10,
+    "marginType": "percentMargin",
+    "marginValue": 15,
+    "marginRoundType": "ceilBy100",
+    "id": 573,
+    "lookup": {
+      "suppliers": {
+        "24410": 24410
+      }
+    },
+    "conditionText": "ДИКИЙ ЗАХІД",
+    "valueText": "-10%",
+    "description": "Застосовані умови для знижки:<br>Саплаєри (1): ДИКИЙ ЗАХІД<br>Відсоткова знижка (%) -10%"
+  }, {
+    "rulesGroupId": "69e746a4-5fd6-4432-b53a-a54d2236344d",
+    "suppliers": [26377],
+    "type": "percentDiscount",
+    "value": 0,
+    "marginType": "percentMargin",
+    "marginValue": 15,
+    "marginRoundType": "ceilBy100",
+    "id": 574,
+    "lookup": {
+      "suppliers": {
+        "26377": 26377
+      }
+    },
+    "conditionText": "АРТ РАДІО",
+    "valueText": "-0%",
+    "description": "Застосовані умови для знижки:<br>Саплаєри (1): АРТ РАДІО<br>Відсоткова знижка (%) -0%"
+  }, {
+    "rulesGroupId": "69e746a4-5fd6-4432-b53a-a54d2236344d",
+    "suppliers": [25957],
+    "type": "percentDiscount",
+    "value": 30,
+    "marginType": "percentMargin",
+    "marginValue": 15,
+    "marginRoundType": "ceilBy100",
+    "id": 575,
+    "lookup": {
+      "suppliers": {
+        "25957": 25957
+      }
+    },
+    "conditionText": "ТЕХНОПАРК",
+    "valueText": "-30%",
+    "description": "Застосовані умови для знижки:<br>Саплаєри (1): ТЕХНОПАРК<br>Відсоткова знижка (%) -30%"
+  }, {
+    "rulesGroupId": "69e746a4-5fd6-4432-b53a-a54d2236344d",
+    "suppliers": [25969],
+    "type": "percentDiscount",
+    "value": 0,
+    "marginType": "percentMargin",
+    "marginValue": 15,
+    "marginRoundType": "ceilBy100",
+    "id": 576,
+    "lookup": {
+      "suppliers": {
+        "25969": 25969
+      }
+    },
+    "conditionText": "БОЙКО ФОП",
+    "valueText": "-0%",
+    "description": "Застосовані умови для знижки:<br>Саплаєри (1): БОЙКО ФОП<br>Відсоткова знижка (%) -0%"
+  }, {
+    "rulesGroupId": "69e746a4-5fd6-4432-b53a-a54d2236344d",
+    "suppliers": [26529],
+    "type": "percentDiscount",
+    "value": 0,
+    "marginType": "percentMargin",
+    "marginValue": 15,
+    "marginRoundType": "ceilBy100",
+    "id": 577,
+    "lookup": {
+      "suppliers": {
+        "26529": 26529
+      }
+    },
+    "conditionText": "НАМЕНАНІК ФОП",
+    "valueText": "-0%",
+    "description": "Застосовані умови для знижки:<br>Саплаєри (1): НАМЕНАНІК ФОП<br>Відсоткова знижка (%) -0%"
+  }, {
+    "rulesGroupId": "69e746a4-5fd6-4432-b53a-a54d2236344d",
+    "suppliers": [23288],
+    "type": "percentDiscount",
+    "value": 50,
+    "marginType": "percentMargin",
+    "marginValue": 15,
+    "marginRoundType": "ceilBy100",
+    "id": 578,
+    "lookup": {
+      "suppliers": {
+        "23288": 23288
+      }
+    },
+    "conditionText": "СІТІ-РТМ",
+    "valueText": "-50%",
+    "description": "Застосовані умови для знижки:<br>Саплаєри (1): СІТІ-РТМ<br>Відсоткова знижка (%) -50%"
+  }, {
+    "rulesGroupId": "69e746a4-5fd6-4432-b53a-a54d2236344d",
+    "suppliers": [20685],
+    "sidetypes": [541],
+    "type": "percentDiscount",
+    "value": 30,
+    "marginType": "percentMargin",
+    "marginValue": 15,
+    "marginRoundType": "ceilBy100",
+    "id": 579,
+    "lookup": {
+      "suppliers": {
+        "20685": 20685
+      },
+      "sidetypes": {
+        "541": 541
+      }
+    },
+    "conditionText": "РТМ-УКРАЇНА|Digital",
+    "valueText": "-30%",
+    "description": "Застосовані умови для знижки:<br>Саплаєри (1): РТМ-УКРАЇНА<br>Типи поверхні (1): Digital<br>Відсоткова знижка (%) -30%"
+  }, {
+    "rulesGroupId": "69e746a4-5fd6-4432-b53a-a54d2236344d",
+    "suppliers": [20685],
+    "type": "percentDiscount",
+    "value": 40,
+    "marginType": "percentMargin",
+    "marginValue": 15,
+    "marginRoundType": "ceilBy100",
+    "id": 580,
+    "lookup": {
+      "suppliers": {
+        "20685": 20685
+      }
+    },
+    "conditionText": "РТМ-УКРАЇНА",
+    "valueText": "-40%",
+    "description": "Застосовані умови для знижки:<br>Саплаєри (1): РТМ-УКРАЇНА<br>Відсоткова знижка (%) -40%"
+  }]
+}]

@@ -1,0 +1,75 @@
+.stretch-html .x-innerhtml {
+    height: 100%;
+}
+
+.stretch-html .drag-file-ct .x-innerhtml {
+    pointer-events: none;
+}
+
+.drag-file-fadeout {
+    opacity: 0;
+    -webkit-transition: all 1s ease-in-out;
+    transition: all 1s ease-in-out;
+}
+
+.drag-image-content {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-color: white;
+    z-index: 0;
+}
+
+.drag-file-label {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    font-size: 18px;
+    line-height: 21px;
+    padding-top: 30px;
+    text-align: center;
+    pointer-events: none;
+    z-index: 1;
+}
+
+.drag-file-icon {
+    font-family: FontAwesome;
+    display: block;
+    font-size: 64px;
+    margin-top: 50px;
+    display: none;
+    text-align: center;
+    pointer-events: none;
+    z-index: 1;
+
+    .active & {
+        display: block;
+        &:after {
+            content: $fa-var-check-circle;
+            color: #8BC34A;
+        }
+    }
+
+    .dropped & {
+        display: block;
+
+        &:after {
+            content: $fa-var-cog;
+            color: #9E9E9E;
+        }
+    }
+
+    .nosupport & {
+        display: block;
+        &:after {
+            content: $fa-var-frown-o;
+            color: #9E9E9E;
+        }
+    }
+}

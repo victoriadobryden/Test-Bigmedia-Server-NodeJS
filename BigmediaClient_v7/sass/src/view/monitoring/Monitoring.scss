@@ -1,0 +1,95 @@
+.bm-row-focused {
+    background: #dedede;
+    color: black;
+    font-weight: bold;
+}
+
+.poster-monitoring {
+    width: 100%;
+    height: 50px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 50%;
+}
+
+.tableRow_calendar {
+    position: relative;
+    padding: 0px 0px 6px 0px;
+    height: 9px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    line-height: 0px;
+}
+.tableRow_calendar_inner {
+    height: 100%;
+    margin: 0;
+    line-height: 0px;
+}
+.mask_opaque {
+    position: absolute;
+    height: 4px;
+    background-color: rgba(255,255,255,0.7);
+    z-index: 1;
+    line-height: 0px;
+    // -webkit-transform: skew(-45deg);
+    // transform: skew(-45deg);
+}
+div#after {
+    bottom: 0;
+    right: 0;
+}
+.month_line, .tableRow_month {
+    display: inline-block;
+    line-height: 0px;
+    height: 100%;
+}
+.tableRow_month {
+    position: relative;
+    border-right: 3px solid transparent;
+}
+.month_line-s {
+    background: #8fa2ad;
+}
+.month_line-r {
+    background: #f69090;
+}
+.month_line-f {
+    background: #4adbba;
+}
+.month_line-t {
+    background: #eac680;
+}
+.month_line-d {
+    background: #333;
+}
+.month_line {
+    width: 100%;
+    // -webkit-transform: skew(-45deg);
+    // transform: skew(-45deg);
+}
+.date_name {
+    position: absolute;
+    // width: 90px;
+    height: 100%;
+    // margin: auto;
+    // left: 0;
+    // right: 0;
+    // top: 0;
+    // bottom: 0;
+    color: #fff;
+    font-weight: 700;
+    font-size: .8em;
+    line-height: 13px;
+    text-align: center;
+    text-overflow: ellipsis;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+.x-grid-rowbody {
+    padding: 0px;
+}
+.rowbody_occupancy .x-grid-rowbody {
+    padding: 0px;
+}

@@ -1,0 +1,1712 @@
+[{
+  "name": "2022_CostEstimate",
+  "id": "caf364ab-ce54-454b-b270-63a44bbbd7d3",
+  "rules": [{
+    "rulesGroupId": "caf364ab-ce54-454b-b270-63a44bbbd7d3",
+    "suppliers": [20685],
+    "type": "percentDiscount",
+    "value": 60,
+    "marginType": "percentMargin",
+    "marginValue": 15,
+    "marginRoundType": "ceilBy100",
+    "id": 586,
+    "lookup": {
+      "suppliers": {
+        "20685": 20685
+      }
+    },
+    "conditionText": "РТМ-УКРАЇНА",
+    "valueText": "-60%",
+    "description": "Застосовані умови для знижки:<br>Саплаєри (1): РТМ-УКРАЇНА<br>Відсоткова знижка (%) -60%"
+  }, {
+    "rulesGroupId": "caf364ab-ce54-454b-b270-63a44bbbd7d3",
+    "suppliers": [20591],
+    "cities": [1],
+    "type": "percentDiscount",
+    "value": 60,
+    "marginType": "percentMargin",
+    "marginValue": 15,
+    "marginRoundType": "ceilBy100",
+    "id": 587,
+    "lookup": {
+      "suppliers": {
+        "20591": 20591
+      },
+      "cities": {
+        "1": 1
+      }
+    },
+    "conditionText": "ПЕРЕХІД АУТДОР ДП|Київ",
+    "valueText": "-60%",
+    "description": "Застосовані умови для знижки:<br>Саплаєри (1): ПЕРЕХІД АУТДОР ДП<br>Міста (1): Київ<br>Відсоткова знижка (%) -60%"
+  }, {
+    "rulesGroupId": "caf364ab-ce54-454b-b270-63a44bbbd7d3",
+    "suppliers": [20591],
+    "type": "percentDiscount",
+    "value": 55,
+    "marginType": "percentMargin",
+    "marginValue": 15,
+    "marginRoundType": "ceilBy100",
+    "id": 588,
+    "lookup": {
+      "suppliers": {
+        "20591": 20591
+      }
+    },
+    "conditionText": "ПЕРЕХІД АУТДОР ДП",
+    "valueText": "-55%",
+    "description": "Застосовані умови для знижки:<br>Саплаєри (1): ПЕРЕХІД АУТДОР ДП<br>Відсоткова знижка (%) -55%"
+  }, {
+    "rulesGroupId": "caf364ab-ce54-454b-b270-63a44bbbd7d3",
+    "suppliers": [20410],
+    "type": "percentDiscount",
+    "value": 60,
+    "marginType": "percentMargin",
+    "marginValue": 30,
+    "marginRoundType": "ceilBy100",
+    "id": 589,
+    "lookup": {
+      "suppliers": {
+        "20410": 20410
+      }
+    },
+    "conditionText": "ДНІПРОВІЖН",
+    "valueText": "-60%",
+    "description": "Застосовані умови для знижки:<br>Саплаєри (1): ДНІПРОВІЖН<br>Відсоткова знижка (%) -60%"
+  }, {
+    "rulesGroupId": "caf364ab-ce54-454b-b270-63a44bbbd7d3",
+    "suppliers": [20506],
+    "type": "percentDiscount",
+    "value": 30,
+    "marginType": "percentMargin",
+    "marginValue": 15,
+    "marginRoundType": "ceilBy100",
+    "id": 590,
+    "lookup": {
+      "suppliers": {
+        "20506": 20506
+      }
+    },
+    "conditionText": "БІОФОРС",
+    "valueText": "-30%",
+    "description": "Застосовані умови для знижки:<br>Саплаєри (1): БІОФОРС<br>Відсоткова знижка (%) -30%"
+  }, {
+    "rulesGroupId": "caf364ab-ce54-454b-b270-63a44bbbd7d3",
+    "suppliers": [20605],
+    "type": "percentDiscount",
+    "value": 60,
+    "marginType": "percentMargin",
+    "marginValue": 15,
+    "marginRoundType": "ceilBy100",
+    "id": 591,
+    "lookup": {
+      "suppliers": {
+        "20605": 20605
+      }
+    },
+    "conditionText": "НАРУЖКА",
+    "valueText": "-60%",
+    "description": "Застосовані умови для знижки:<br>Саплаєри (1): НАРУЖКА<br>Відсоткова знижка (%) -60%"
+  }, {
+    "rulesGroupId": "caf364ab-ce54-454b-b270-63a44bbbd7d3",
+    "suppliers": [21639],
+    "type": "percentDiscount",
+    "value": 50,
+    "marginType": "percentMargin",
+    "marginValue": 15,
+    "marginRoundType": "ceilBy100",
+    "id": 592,
+    "lookup": {
+      "suppliers": {
+        "21639": 21639
+      }
+    },
+    "conditionText": "ЕЛІЗІЯ",
+    "valueText": "-50%",
+    "description": "Застосовані умови для знижки:<br>Саплаєри (1): ЕЛІЗІЯ<br>Відсоткова знижка (%) -50%"
+  }, {
+    "rulesGroupId": "caf364ab-ce54-454b-b270-63a44bbbd7d3",
+    "suppliers": [25979],
+    "type": "percentDiscount",
+    "value": 20,
+    "marginType": "percentMargin",
+    "marginValue": 15,
+    "marginRoundType": "ceilBy100",
+    "id": 593,
+    "lookup": {
+      "suppliers": {
+        "25979": 25979
+      }
+    },
+    "conditionText": "БІГ-ІНФО",
+    "valueText": "-20%",
+    "description": "Застосовані умови для знижки:<br>Саплаєри (1): БІГ-ІНФО<br>Відсоткова знижка (%) -20%"
+  }, {
+    "rulesGroupId": "caf364ab-ce54-454b-b270-63a44bbbd7d3",
+    "suppliers": [23730],
+    "type": "percentDiscount",
+    "value": 20,
+    "marginType": "percentMargin",
+    "marginValue": 15,
+    "marginRoundType": "ceilBy100",
+    "id": 594,
+    "lookup": {
+      "suppliers": {
+        "23730": 23730
+      }
+    },
+    "conditionText": "БУМЕРАНГ",
+    "valueText": "-20%",
+    "description": "Застосовані умови для знижки:<br>Саплаєри (1): БУМЕРАНГ<br>Відсоткова знижка (%) -20%"
+  }, {
+    "rulesGroupId": "caf364ab-ce54-454b-b270-63a44bbbd7d3",
+    "suppliers": [26377],
+    "type": "percentDiscount",
+    "value": 50,
+    "marginType": "percentMargin",
+    "marginValue": 15,
+    "marginRoundType": "ceilBy100",
+    "id": 595,
+    "lookup": {
+      "suppliers": {
+        "26377": 26377
+      }
+    },
+    "conditionText": "АРТ РАДІО",
+    "valueText": "-50%",
+    "description": "Застосовані умови для знижки:<br>Саплаєри (1): АРТ РАДІО<br>Відсоткова знижка (%) -50%"
+  }, {
+    "rulesGroupId": "caf364ab-ce54-454b-b270-63a44bbbd7d3",
+    "suppliers": [20588],
+    "sizes": [1],
+    "sidetypes": [493],
+    "type": "fixedPricePerMonth",
+    "value": 4000,
+    "marginType": "percentMargin",
+    "marginValue": 15,
+    "marginRoundType": "ceilBy100",
+    "id": 596,
+    "lookup": {
+      "suppliers": {
+        "20588": 20588
+      },
+      "sizes": {
+        "1": 1
+      },
+      "sidetypes": {
+        "493": 493
+      }
+    },
+    "conditionText": "A-PETROL|3x6|Щит",
+    "valueText": "4000 UAH",
+    "description": "Застосовані умови для знижки:<br>Саплаєри (1): A-PETROL<br>Розміри (1): 3x6<br>Типи поверхні (1): Щит<br>Фіксована ціна за місяць (UAH) 4000 UAH"
+  }, {
+    "rulesGroupId": "caf364ab-ce54-454b-b270-63a44bbbd7d3",
+    "suppliers": [20588],
+    "sizes": [1],
+    "sidetypes": [492],
+    "type": "fixedPricePerMonth",
+    "value": 5000,
+    "marginType": "percentMargin",
+    "marginValue": 15,
+    "marginRoundType": "ceilBy100",
+    "id": 597,
+    "lookup": {
+      "suppliers": {
+        "20588": 20588
+      },
+      "sizes": {
+        "1": 1
+      },
+      "sidetypes": {
+        "492": 492
+      }
+    },
+    "conditionText": "A-PETROL|3x6|Призмавіжн",
+    "valueText": "5000 UAH",
+    "description": "Застосовані умови для знижки:<br>Саплаєри (1): A-PETROL<br>Розміри (1): 3x6<br>Типи поверхні (1): Призмавіжн<br>Фіксована ціна за місяць (UAH) 5000 UAH"
+  }, {
+    "rulesGroupId": "caf364ab-ce54-454b-b270-63a44bbbd7d3",
+    "suppliers": [20588],
+    "sizes": [34],
+    "sidetypes": [488],
+    "type": "fixedPricePerMonth",
+    "value": 3000,
+    "marginType": "percentMargin",
+    "marginValue": 15,
+    "marginRoundType": "ceilBy100",
+    "id": 598,
+    "lookup": {
+      "suppliers": {
+        "20588": 20588
+      },
+      "sizes": {
+        "34": 34
+      },
+      "sidetypes": {
+        "488": 488
+      }
+    },
+    "conditionText": "A-PETROL|2.3x3.14|Скрол",
+    "valueText": "3000 UAH",
+    "description": "Застосовані умови для знижки:<br>Саплаєри (1): A-PETROL<br>Розміри (1): 2.3x3.14<br>Типи поверхні (1): Скрол<br>Фіксована ціна за місяць (UAH) 3000 UAH"
+  }, {
+    "rulesGroupId": "caf364ab-ce54-454b-b270-63a44bbbd7d3",
+    "suppliers": [20588],
+    "sizes": [34],
+    "sidetypes": [541],
+    "type": "fixedPricePerMonth",
+    "value": 5000,
+    "marginType": "percentMargin",
+    "marginValue": 15,
+    "marginRoundType": "ceilBy100",
+    "id": 599,
+    "lookup": {
+      "suppliers": {
+        "20588": 20588
+      },
+      "sizes": {
+        "34": 34
+      },
+      "sidetypes": {
+        "541": 541
+      }
+    },
+    "conditionText": "A-PETROL|2.3x3.14|Digital",
+    "valueText": "5000 UAH",
+    "description": "Застосовані умови для знижки:<br>Саплаєри (1): A-PETROL<br>Розміри (1): 2.3x3.14<br>Типи поверхні (1): Digital<br>Фіксована ціна за місяць (UAH) 5000 UAH"
+  }, {
+    "rulesGroupId": "caf364ab-ce54-454b-b270-63a44bbbd7d3",
+    "suppliers": [20588],
+    "type": "percentDiscount",
+    "value": 30,
+    "marginType": "percentMargin",
+    "marginValue": 15,
+    "marginRoundType": "ceilBy100",
+    "id": 600,
+    "lookup": {
+      "suppliers": {
+        "20588": 20588
+      }
+    },
+    "conditionText": "A-PETROL",
+    "valueText": "-30%",
+    "description": "Застосовані умови для знижки:<br>Саплаєри (1): A-PETROL<br>Відсоткова знижка (%) -30%"
+  }, {
+    "rulesGroupId": "caf364ab-ce54-454b-b270-63a44bbbd7d3",
+    "suppliers": [23349],
+    "sizes": [1],
+    "sidetypes": [493],
+    "type": "fixedPricePerMonth",
+    "value": 5000,
+    "marginType": "percentMargin",
+    "marginValue": 15,
+    "marginRoundType": "ceilBy100",
+    "id": 601,
+    "lookup": {
+      "suppliers": {
+        "23349": 23349
+      },
+      "sizes": {
+        "1": 1
+      },
+      "sidetypes": {
+        "493": 493
+      }
+    },
+    "conditionText": "АЛЬХОР АУТДОР|3x6|Щит",
+    "valueText": "5000 UAH",
+    "description": "Застосовані умови для знижки:<br>Саплаєри (1): АЛЬХОР АУТДОР<br>Розміри (1): 3x6<br>Типи поверхні (1): Щит<br>Фіксована ціна за місяць (UAH) 5000 UAH"
+  }, {
+    "rulesGroupId": "caf364ab-ce54-454b-b270-63a44bbbd7d3",
+    "suppliers": [23349],
+    "sizes": [1],
+    "sidetypes": [492],
+    "type": "fixedPricePerMonth",
+    "value": 5500,
+    "marginType": "percentMargin",
+    "marginValue": 15,
+    "marginRoundType": "ceilBy100",
+    "id": 602,
+    "lookup": {
+      "suppliers": {
+        "23349": 23349
+      },
+      "sizes": {
+        "1": 1
+      },
+      "sidetypes": {
+        "492": 492
+      }
+    },
+    "conditionText": "АЛЬХОР АУТДОР|3x6|Призмавіжн",
+    "valueText": "5500 UAH",
+    "description": "Застосовані умови для знижки:<br>Саплаєри (1): АЛЬХОР АУТДОР<br>Розміри (1): 3x6<br>Типи поверхні (1): Призмавіжн<br>Фіксована ціна за місяць (UAH) 5500 UAH"
+  }, {
+    "rulesGroupId": "caf364ab-ce54-454b-b270-63a44bbbd7d3",
+    "suppliers": [23349],
+    "sizes": [34],
+    "sidetypes": [488],
+    "type": "fixedPricePerMonth",
+    "value": 4500,
+    "marginType": "percentMargin",
+    "marginValue": 15,
+    "marginRoundType": "ceilBy100",
+    "id": 603,
+    "lookup": {
+      "suppliers": {
+        "23349": 23349
+      },
+      "sizes": {
+        "34": 34
+      },
+      "sidetypes": {
+        "488": 488
+      }
+    },
+    "conditionText": "АЛЬХОР АУТДОР|2.3x3.14|Скрол",
+    "valueText": "4500 UAH",
+    "description": "Застосовані умови для знижки:<br>Саплаєри (1): АЛЬХОР АУТДОР<br>Розміри (1): 2.3x3.14<br>Типи поверхні (1): Скрол<br>Фіксована ціна за місяць (UAH) 4500 UAH"
+  }, {
+    "rulesGroupId": "caf364ab-ce54-454b-b270-63a44bbbd7d3",
+    "suppliers": [23349],
+    "type": "percentDiscount",
+    "value": 30,
+    "marginType": "percentMargin",
+    "marginValue": 15,
+    "marginRoundType": "ceilBy100",
+    "id": 604,
+    "lookup": {
+      "suppliers": {
+        "23349": 23349
+      }
+    },
+    "conditionText": "АЛЬХОР АУТДОР",
+    "valueText": "-30%",
+    "description": "Застосовані умови для знижки:<br>Саплаєри (1): АЛЬХОР АУТДОР<br>Відсоткова знижка (%) -30%"
+  }, {
+    "rulesGroupId": "caf364ab-ce54-454b-b270-63a44bbbd7d3",
+    "suppliers": [20586],
+    "type": "fixedPricePerMonth",
+    "value": 5000,
+    "marginType": "percentMargin",
+    "marginValue": 15,
+    "marginRoundType": "ceilBy100",
+    "id": 605,
+    "lookup": {
+      "suppliers": {
+        "20586": 20586
+      }
+    },
+    "conditionText": "БОНА МЕНТЕ",
+    "valueText": "5000 UAH",
+    "description": "Застосовані умови для знижки:<br>Саплаєри (1): БОНА МЕНТЕ<br>Фіксована ціна за місяць (UAH) 5000 UAH"
+  }, {
+    "rulesGroupId": "caf364ab-ce54-454b-b270-63a44bbbd7d3",
+    "suppliers": [21657],
+    "sizes": [1],
+    "type": "fixedPricePerMonth",
+    "value": 3000,
+    "marginType": "percentMargin",
+    "marginValue": 15,
+    "marginRoundType": "ceilBy100",
+    "id": 606,
+    "lookup": {
+      "suppliers": {
+        "21657": 21657
+      },
+      "sizes": {
+        "1": 1
+      }
+    },
+    "conditionText": "GOLD FUTURE|3x6",
+    "valueText": "3000 UAH",
+    "description": "Застосовані умови для знижки:<br>Саплаєри (1): GOLD FUTURE<br>Розміри (1): 3x6<br>Фіксована ціна за місяць (UAH) 3000 UAH"
+  }, {
+    "rulesGroupId": "caf364ab-ce54-454b-b270-63a44bbbd7d3",
+    "suppliers": [21657],
+    "type": "fixedDiscount",
+    "value": 500,
+    "marginType": "percentMargin",
+    "marginValue": 15,
+    "marginRoundType": "ceilBy100",
+    "id": 607,
+    "lookup": {
+      "suppliers": {
+        "21657": 21657
+      }
+    },
+    "conditionText": "GOLD FUTURE",
+    "valueText": "-500 UAH",
+    "description": "Застосовані умови для знижки:<br>Саплаєри (1): GOLD FUTURE<br>Знижка (UAH) -500 UAH"
+  }, {
+    "rulesGroupId": "caf364ab-ce54-454b-b270-63a44bbbd7d3",
+    "suppliers": [24410],
+    "cities": [12],
+    "sizes": [1],
+    "sidetypes": [493],
+    "type": "fixedPricePerMonth",
+    "value": 2600,
+    "marginType": "percentMargin",
+    "marginValue": 15,
+    "marginRoundType": "ceilBy100",
+    "id": 608,
+    "lookup": {
+      "suppliers": {
+        "24410": 24410
+      },
+      "cities": {
+        "12": 12
+      },
+      "sizes": {
+        "1": 1
+      },
+      "sidetypes": {
+        "493": 493
+      }
+    },
+    "conditionText": "ДИКИЙ ЗАХІД|Івано-Франківськ|3x6|Щит",
+    "valueText": "2600 UAH",
+    "description": "Застосовані умови для знижки:<br>Саплаєри (1): ДИКИЙ ЗАХІД<br>Міста (1): Івано-Франківськ<br>Розміри (1): 3x6<br>Типи поверхні (1): Щит<br>Фіксована ціна за місяць (UAH) 2600 UAH"
+  }, {
+    "rulesGroupId": "caf364ab-ce54-454b-b270-63a44bbbd7d3",
+    "suppliers": [24410],
+    "cities": [12],
+    "sizes": [1],
+    "sidetypes": [492],
+    "type": "fixedPricePerMonth",
+    "value": 3000,
+    "marginType": "percentMargin",
+    "marginValue": 15,
+    "marginRoundType": "ceilBy100",
+    "id": 609,
+    "lookup": {
+      "suppliers": {
+        "24410": 24410
+      },
+      "cities": {
+        "12": 12
+      },
+      "sizes": {
+        "1": 1
+      },
+      "sidetypes": {
+        "492": 492
+      }
+    },
+    "conditionText": "ДИКИЙ ЗАХІД|Івано-Франківськ|3x6|Призмавіжн",
+    "valueText": "3000 UAH",
+    "description": "Застосовані умови для знижки:<br>Саплаєри (1): ДИКИЙ ЗАХІД<br>Міста (1): Івано-Франківськ<br>Розміри (1): 3x6<br>Типи поверхні (1): Призмавіжн<br>Фіксована ціна за місяць (UAH) 3000 UAH"
+  }, {
+    "rulesGroupId": "caf364ab-ce54-454b-b270-63a44bbbd7d3",
+    "suppliers": [24410],
+    "cities": [12],
+    "sizes": [13],
+    "type": "fixedPricePerMonth",
+    "value": 1200,
+    "marginType": "percentMargin",
+    "marginValue": 15,
+    "marginRoundType": "ceilBy100",
+    "id": 610,
+    "lookup": {
+      "suppliers": {
+        "24410": 24410
+      },
+      "cities": {
+        "12": 12
+      },
+      "sizes": {
+        "13": 13
+      }
+    },
+    "conditionText": "ДИКИЙ ЗАХІД|Івано-Франківськ|1.2x1.8",
+    "valueText": "1200 UAH",
+    "description": "Застосовані умови для знижки:<br>Саплаєри (1): ДИКИЙ ЗАХІД<br>Міста (1): Івано-Франківськ<br>Розміри (1): 1.2x1.8<br>Фіксована ціна за місяць (UAH) 1200 UAH"
+  }, {
+    "rulesGroupId": "caf364ab-ce54-454b-b270-63a44bbbd7d3",
+    "suppliers": [24410],
+    "type": "percentDiscount",
+    "value": 10,
+    "marginType": "percentMargin",
+    "marginValue": 15,
+    "marginRoundType": "ceilBy100",
+    "id": 611,
+    "lookup": {
+      "suppliers": {
+        "24410": 24410
+      }
+    },
+    "conditionText": "ДИКИЙ ЗАХІД",
+    "valueText": "-10%",
+    "description": "Застосовані умови для знижки:<br>Саплаєри (1): ДИКИЙ ЗАХІД<br>Відсоткова знижка (%) -10%"
+  }, {
+    "rulesGroupId": "caf364ab-ce54-454b-b270-63a44bbbd7d3",
+    "suppliers": [20777],
+    "sizes": [1, 34],
+    "sidetypes": [493, 488],
+    "type": "fixedPricePerMonth",
+    "value": 4000,
+    "marginType": "percentMargin",
+    "marginValue": 15,
+    "marginRoundType": "ceilBy100",
+    "id": 612,
+    "lookup": {
+      "suppliers": {
+        "20777": 20777
+      },
+      "sizes": {
+        "1": 1,
+        "34": 34
+      },
+      "sidetypes": {
+        "488": 488,
+        "493": 493
+      }
+    },
+    "conditionText": "КОММЕРЦ ЕВОЛЮШН|3x6,2.3x3.14|Скрол,Щит",
+    "valueText": "4000 UAH",
+    "description": "Застосовані умови для знижки:<br>Саплаєри (1): КОММЕРЦ ЕВОЛЮШН<br>Розміри (2): 3x6,2.3x3.14<br>Типи поверхні (2): Скрол,Щит<br>Фіксована ціна за місяць (UAH) 4000 UAH"
+  }, {
+    "rulesGroupId": "caf364ab-ce54-454b-b270-63a44bbbd7d3",
+    "suppliers": [20777],
+    "sizes": [1],
+    "sidetypes": [492],
+    "type": "fixedPricePerMonth",
+    "value": 4500,
+    "marginType": "percentMargin",
+    "marginValue": 15,
+    "marginRoundType": "ceilBy100",
+    "id": 613,
+    "lookup": {
+      "suppliers": {
+        "20777": 20777
+      },
+      "sizes": {
+        "1": 1
+      },
+      "sidetypes": {
+        "492": 492
+      }
+    },
+    "conditionText": "КОММЕРЦ ЕВОЛЮШН|3x6|Призмавіжн",
+    "valueText": "4500 UAH",
+    "description": "Застосовані умови для знижки:<br>Саплаєри (1): КОММЕРЦ ЕВОЛЮШН<br>Розміри (1): 3x6<br>Типи поверхні (1): Призмавіжн<br>Фіксована ціна за місяць (UAH) 4500 UAH"
+  }, {
+    "rulesGroupId": "caf364ab-ce54-454b-b270-63a44bbbd7d3",
+    "suppliers": [24818],
+    "cities": [1],
+    "sizes": [1],
+    "sidetypes": [493],
+    "type": "fixedPricePerMonth",
+    "value": 3000,
+    "marginType": "percentMargin",
+    "marginValue": 15,
+    "marginRoundType": "ceilBy100",
+    "id": 614,
+    "lookup": {
+      "suppliers": {
+        "24818": 24818
+      },
+      "cities": {
+        "1": 1
+      },
+      "sizes": {
+        "1": 1
+      },
+      "sidetypes": {
+        "493": 493
+      }
+    },
+    "conditionText": "КРАШ|Київ|3x6|Щит",
+    "valueText": "3000 UAH",
+    "description": "Застосовані умови для знижки:<br>Саплаєри (1): КРАШ<br>Міста (1): Київ<br>Розміри (1): 3x6<br>Типи поверхні (1): Щит<br>Фіксована ціна за місяць (UAH) 3000 UAH"
+  }, {
+    "rulesGroupId": "caf364ab-ce54-454b-b270-63a44bbbd7d3",
+    "suppliers": [24818],
+    "cities": [1],
+    "sizes": [1],
+    "sidetypes": [492],
+    "type": "fixedPricePerMonth",
+    "value": 4000,
+    "marginType": "percentMargin",
+    "marginValue": 15,
+    "marginRoundType": "ceilBy100",
+    "id": 615,
+    "lookup": {
+      "suppliers": {
+        "24818": 24818
+      },
+      "cities": {
+        "1": 1
+      },
+      "sizes": {
+        "1": 1
+      },
+      "sidetypes": {
+        "492": 492
+      }
+    },
+    "conditionText": "КРАШ|Київ|3x6|Призмавіжн",
+    "valueText": "4000 UAH",
+    "description": "Застосовані умови для знижки:<br>Саплаєри (1): КРАШ<br>Міста (1): Київ<br>Розміри (1): 3x6<br>Типи поверхні (1): Призмавіжн<br>Фіксована ціна за місяць (UAH) 4000 UAH"
+  }, {
+    "rulesGroupId": "caf364ab-ce54-454b-b270-63a44bbbd7d3",
+    "suppliers": [24818],
+    "cities": [1],
+    "sizes": [34],
+    "sidetypes": [488],
+    "type": "fixedPricePerMonth",
+    "value": 3000,
+    "marginType": "percentMargin",
+    "marginValue": 15,
+    "marginRoundType": "ceilBy100",
+    "id": 616,
+    "lookup": {
+      "suppliers": {
+        "24818": 24818
+      },
+      "cities": {
+        "1": 1
+      },
+      "sizes": {
+        "34": 34
+      },
+      "sidetypes": {
+        "488": 488
+      }
+    },
+    "conditionText": "КРАШ|Київ|2.3x3.14|Скрол",
+    "valueText": "3000 UAH",
+    "description": "Застосовані умови для знижки:<br>Саплаєри (1): КРАШ<br>Міста (1): Київ<br>Розміри (1): 2.3x3.14<br>Типи поверхні (1): Скрол<br>Фіксована ціна за місяць (UAH) 3000 UAH"
+  }, {
+    "rulesGroupId": "caf364ab-ce54-454b-b270-63a44bbbd7d3",
+    "suppliers": [24818],
+    "cities": [1],
+    "sizes": [34],
+    "sidetypes": [541],
+    "type": "fixedPricePerMonth",
+    "value": 4000,
+    "marginType": "percentMargin",
+    "marginValue": 15,
+    "marginRoundType": "ceilBy100",
+    "id": 617,
+    "lookup": {
+      "suppliers": {
+        "24818": 24818
+      },
+      "cities": {
+        "1": 1
+      },
+      "sizes": {
+        "34": 34
+      },
+      "sidetypes": {
+        "541": 541
+      }
+    },
+    "conditionText": "КРАШ|Київ|2.3x3.14|Digital",
+    "valueText": "4000 UAH",
+    "description": "Застосовані умови для знижки:<br>Саплаєри (1): КРАШ<br>Міста (1): Київ<br>Розміри (1): 2.3x3.14<br>Типи поверхні (1): Digital<br>Фіксована ціна за місяць (UAH) 4000 UAH"
+  }, {
+    "rulesGroupId": "caf364ab-ce54-454b-b270-63a44bbbd7d3",
+    "suppliers": [24818],
+    "type": "percentDiscount",
+    "value": 70,
+    "marginType": "percentMargin",
+    "marginValue": 15,
+    "marginRoundType": "ceilBy100",
+    "id": 618,
+    "lookup": {
+      "suppliers": {
+        "24818": 24818
+      }
+    },
+    "conditionText": "КРАШ",
+    "valueText": "-70%",
+    "description": "Застосовані умови для знижки:<br>Саплаєри (1): КРАШ<br>Відсоткова знижка (%) -70%"
+  }, {
+    "rulesGroupId": "caf364ab-ce54-454b-b270-63a44bbbd7d3",
+    "suppliers": [20575],
+    "sizes": [1],
+    "sidetypes": [493],
+    "type": "fixedPricePerMonth",
+    "value": 4000,
+    "marginType": "percentMargin",
+    "marginValue": 15,
+    "marginRoundType": "ceilBy100",
+    "id": 619,
+    "lookup": {
+      "suppliers": {
+        "20575": 20575
+      },
+      "sizes": {
+        "1": 1
+      },
+      "sidetypes": {
+        "493": 493
+      }
+    },
+    "conditionText": "ЛУВЕРС|3x6|Щит",
+    "valueText": "4000 UAH",
+    "description": "Застосовані умови для знижки:<br>Саплаєри (1): ЛУВЕРС<br>Розміри (1): 3x6<br>Типи поверхні (1): Щит<br>Фіксована ціна за місяць (UAH) 4000 UAH"
+  }, {
+    "rulesGroupId": "caf364ab-ce54-454b-b270-63a44bbbd7d3",
+    "suppliers": [20575],
+    "sizes": [1],
+    "sidetypes": [492],
+    "type": "fixedPricePerMonth",
+    "value": 5000,
+    "marginType": "percentMargin",
+    "marginValue": 15,
+    "marginRoundType": "ceilBy100",
+    "id": 620,
+    "lookup": {
+      "suppliers": {
+        "20575": 20575
+      },
+      "sizes": {
+        "1": 1
+      },
+      "sidetypes": {
+        "492": 492
+      }
+    },
+    "conditionText": "ЛУВЕРС|3x6|Призмавіжн",
+    "valueText": "5000 UAH",
+    "description": "Застосовані умови для знижки:<br>Саплаєри (1): ЛУВЕРС<br>Розміри (1): 3x6<br>Типи поверхні (1): Призмавіжн<br>Фіксована ціна за місяць (UAH) 5000 UAH"
+  }, {
+    "rulesGroupId": "caf364ab-ce54-454b-b270-63a44bbbd7d3",
+    "suppliers": [20575],
+    "sizes": [1],
+    "sidetypes": [488],
+    "type": "fixedPricePerMonth",
+    "value": 4500,
+    "marginType": "percentMargin",
+    "marginValue": 15,
+    "marginRoundType": "ceilBy100",
+    "id": 621,
+    "lookup": {
+      "suppliers": {
+        "20575": 20575
+      },
+      "sizes": {
+        "1": 1
+      },
+      "sidetypes": {
+        "488": 488
+      }
+    },
+    "conditionText": "ЛУВЕРС|3x6|Скрол",
+    "valueText": "4500 UAH",
+    "description": "Застосовані умови для знижки:<br>Саплаєри (1): ЛУВЕРС<br>Розміри (1): 3x6<br>Типи поверхні (1): Скрол<br>Фіксована ціна за місяць (UAH) 4500 UAH"
+  }, {
+    "rulesGroupId": "caf364ab-ce54-454b-b270-63a44bbbd7d3",
+    "suppliers": [20575],
+    "sizes": [1],
+    "sidetypes": [541],
+    "type": "fixedPricePerMonth",
+    "value": 6000,
+    "marginType": "percentMargin",
+    "marginValue": 15,
+    "marginRoundType": "ceilBy100",
+    "id": 622,
+    "lookup": {
+      "suppliers": {
+        "20575": 20575
+      },
+      "sizes": {
+        "1": 1
+      },
+      "sidetypes": {
+        "541": 541
+      }
+    },
+    "conditionText": "ЛУВЕРС|3x6|Digital",
+    "valueText": "6000 UAH",
+    "description": "Застосовані умови для знижки:<br>Саплаєри (1): ЛУВЕРС<br>Розміри (1): 3x6<br>Типи поверхні (1): Digital<br>Фіксована ціна за місяць (UAH) 6000 UAH"
+  }, {
+    "rulesGroupId": "caf364ab-ce54-454b-b270-63a44bbbd7d3",
+    "suppliers": [20575],
+    "sizes": [1, 8],
+    "sidetypes": [489],
+    "type": "fixedPricePerMonth",
+    "value": 10000,
+    "marginType": "percentMargin",
+    "marginValue": 15,
+    "marginRoundType": "ceilBy100",
+    "id": 623,
+    "lookup": {
+      "suppliers": {
+        "20575": 20575
+      },
+      "sizes": {
+        "1": 1,
+        "8": 8
+      },
+      "sidetypes": {
+        "489": 489
+      }
+    },
+    "conditionText": "ЛУВЕРС|3x6,6x3|Беклайт",
+    "valueText": "10000 UAH",
+    "description": "Застосовані умови для знижки:<br>Саплаєри (1): ЛУВЕРС<br>Розміри (2): 3x6,6x3<br>Типи поверхні (1): Беклайт<br>Фіксована ціна за місяць (UAH) 10000 UAH"
+  }, {
+    "rulesGroupId": "caf364ab-ce54-454b-b270-63a44bbbd7d3",
+    "suppliers": [20575],
+    "sizes": [34],
+    "sidetypes": [488],
+    "type": "fixedPricePerMonth",
+    "value": 3500,
+    "marginType": "percentMargin",
+    "marginValue": 15,
+    "marginRoundType": "ceilBy100",
+    "id": 624,
+    "lookup": {
+      "suppliers": {
+        "20575": 20575
+      },
+      "sizes": {
+        "34": 34
+      },
+      "sidetypes": {
+        "488": 488
+      }
+    },
+    "conditionText": "ЛУВЕРС|2.3x3.14|Скрол",
+    "valueText": "3500 UAH",
+    "description": "Застосовані умови для знижки:<br>Саплаєри (1): ЛУВЕРС<br>Розміри (1): 2.3x3.14<br>Типи поверхні (1): Скрол<br>Фіксована ціна за місяць (UAH) 3500 UAH"
+  }, {
+    "rulesGroupId": "caf364ab-ce54-454b-b270-63a44bbbd7d3",
+    "suppliers": [20575],
+    "sizes": [34],
+    "sidetypes": [541],
+    "type": "fixedPricePerMonth",
+    "value": 4000,
+    "marginType": "percentMargin",
+    "marginValue": 15,
+    "marginRoundType": "ceilBy100",
+    "id": 625,
+    "lookup": {
+      "suppliers": {
+        "20575": 20575
+      },
+      "sizes": {
+        "34": 34
+      },
+      "sidetypes": {
+        "541": 541
+      }
+    },
+    "conditionText": "ЛУВЕРС|2.3x3.14|Digital",
+    "valueText": "4000 UAH",
+    "description": "Застосовані умови для знижки:<br>Саплаєри (1): ЛУВЕРС<br>Розміри (1): 2.3x3.14<br>Типи поверхні (1): Digital<br>Фіксована ціна за місяць (UAH) 4000 UAH"
+  }, {
+    "rulesGroupId": "caf364ab-ce54-454b-b270-63a44bbbd7d3",
+    "suppliers": [20575],
+    "sizes": [7, 36],
+    "sidetypes": [489],
+    "type": "fixedPricePerMonth",
+    "value": 10000,
+    "marginType": "percentMargin",
+    "marginValue": 15,
+    "marginRoundType": "ceilBy100",
+    "id": 626,
+    "lookup": {
+      "suppliers": {
+        "20575": 20575
+      },
+      "sizes": {
+        "7": 7,
+        "36": 36
+      },
+      "sidetypes": {
+        "489": 489
+      }
+    },
+    "conditionText": "ЛУВЕРС|4x8,8x4|Беклайт",
+    "valueText": "10000 UAH",
+    "description": "Застосовані умови для знижки:<br>Саплаєри (1): ЛУВЕРС<br>Розміри (2): 4x8,8x4<br>Типи поверхні (1): Беклайт<br>Фіксована ціна за місяць (UAH) 10000 UAH"
+  }, {
+    "rulesGroupId": "caf364ab-ce54-454b-b270-63a44bbbd7d3",
+    "suppliers": [20575],
+    "type": "percentDiscount",
+    "value": 60,
+    "marginType": "percentMargin",
+    "marginValue": 15,
+    "marginRoundType": "ceilBy100",
+    "id": 627,
+    "lookup": {
+      "suppliers": {
+        "20575": 20575
+      }
+    },
+    "conditionText": "ЛУВЕРС",
+    "valueText": "-60%",
+    "description": "Застосовані умови для знижки:<br>Саплаєри (1): ЛУВЕРС<br>Відсоткова знижка (%) -60%"
+  }, {
+    "rulesGroupId": "caf364ab-ce54-454b-b270-63a44bbbd7d3",
+    "suppliers": [20562, 23288],
+    "sizes": [1, 8],
+    "sidetypes": [493],
+    "type": "fixedPricePerMonth",
+    "value": 3500,
+    "marginType": "percentMargin",
+    "marginValue": 15,
+    "marginRoundType": "ceilBy100",
+    "id": 628,
+    "lookup": {
+      "suppliers": {
+        "20562": 20562,
+        "23288": 23288
+      },
+      "sizes": {
+        "1": 1,
+        "8": 8
+      },
+      "sidetypes": {
+        "493": 493
+      }
+    },
+    "conditionText": "СЕАН,СІТІ-РТМ|3x6,6x3|Щит",
+    "valueText": "3500 UAH",
+    "description": "Застосовані умови для знижки:<br>Саплаєри (2): СЕАН,СІТІ-РТМ<br>Розміри (2): 3x6,6x3<br>Типи поверхні (1): Щит<br>Фіксована ціна за місяць (UAH) 3500 UAH"
+  }, {
+    "rulesGroupId": "caf364ab-ce54-454b-b270-63a44bbbd7d3",
+    "suppliers": [20562, 23288],
+    "sizes": [1],
+    "sidetypes": [492],
+    "type": "fixedPricePerMonth",
+    "value": 4000,
+    "marginType": "percentMargin",
+    "marginValue": 15,
+    "marginRoundType": "ceilBy100",
+    "id": 629,
+    "lookup": {
+      "suppliers": {
+        "20562": 20562,
+        "23288": 23288
+      },
+      "sizes": {
+        "1": 1
+      },
+      "sidetypes": {
+        "492": 492
+      }
+    },
+    "conditionText": "СЕАН,СІТІ-РТМ|3x6|Призмавіжн",
+    "valueText": "4000 UAH",
+    "description": "Застосовані умови для знижки:<br>Саплаєри (2): СЕАН,СІТІ-РТМ<br>Розміри (1): 3x6<br>Типи поверхні (1): Призмавіжн<br>Фіксована ціна за місяць (UAH) 4000 UAH"
+  }, {
+    "rulesGroupId": "caf364ab-ce54-454b-b270-63a44bbbd7d3",
+    "suppliers": [20562, 23288],
+    "sizes": [34],
+    "sidetypes": [488],
+    "type": "fixedPricePerMonth",
+    "value": 3500,
+    "marginType": "percentMargin",
+    "marginValue": 15,
+    "marginRoundType": "ceilBy100",
+    "id": 630,
+    "lookup": {
+      "suppliers": {
+        "20562": 20562,
+        "23288": 23288
+      },
+      "sizes": {
+        "34": 34
+      },
+      "sidetypes": {
+        "488": 488
+      }
+    },
+    "conditionText": "СЕАН,СІТІ-РТМ|2.3x3.14|Скрол",
+    "valueText": "3500 UAH",
+    "description": "Застосовані умови для знижки:<br>Саплаєри (2): СЕАН,СІТІ-РТМ<br>Розміри (1): 2.3x3.14<br>Типи поверхні (1): Скрол<br>Фіксована ціна за місяць (UAH) 3500 UAH"
+  }, {
+    "rulesGroupId": "caf364ab-ce54-454b-b270-63a44bbbd7d3",
+    "suppliers": [20562, 23288],
+    "sizes": [13],
+    "type": "fixedPricePerMonth",
+    "value": 2000,
+    "marginType": "percentMargin",
+    "marginValue": 15,
+    "marginRoundType": "ceilBy100",
+    "id": 631,
+    "lookup": {
+      "suppliers": {
+        "20562": 20562,
+        "23288": 23288
+      },
+      "sizes": {
+        "13": 13
+      }
+    },
+    "conditionText": "СЕАН,СІТІ-РТМ|1.2x1.8",
+    "valueText": "2000 UAH",
+    "description": "Застосовані умови для знижки:<br>Саплаєри (2): СЕАН,СІТІ-РТМ<br>Розміри (1): 1.2x1.8<br>Фіксована ціна за місяць (UAH) 2000 UAH"
+  }, {
+    "rulesGroupId": "caf364ab-ce54-454b-b270-63a44bbbd7d3",
+    "suppliers": [20562, 23288],
+    "type": "percentDiscount",
+    "value": 50,
+    "marginType": "percentMargin",
+    "marginValue": 15,
+    "marginRoundType": "ceilBy100",
+    "id": 632,
+    "lookup": {
+      "suppliers": {
+        "20562": 20562,
+        "23288": 23288
+      }
+    },
+    "conditionText": "СЕАН,СІТІ-РТМ",
+    "valueText": "-50%",
+    "description": "Застосовані умови для знижки:<br>Саплаєри (2): СЕАН,СІТІ-РТМ<br>Відсоткова знижка (%) -50%"
+  }, {
+    "rulesGroupId": "caf364ab-ce54-454b-b270-63a44bbbd7d3",
+    "suppliers": [21605],
+    "sizes": [1],
+    "type": "percentDiscount",
+    "value": 40,
+    "marginType": "percentMargin",
+    "marginValue": 15,
+    "marginRoundType": "ceilBy100",
+    "id": 633,
+    "lookup": {
+      "suppliers": {
+        "21605": 21605
+      },
+      "sizes": {
+        "1": 1
+      }
+    },
+    "conditionText": "ЗГІА|3x6",
+    "valueText": "-40%",
+    "description": "Застосовані умови для знижки:<br>Саплаєри (1): ЗГІА<br>Розміри (1): 3x6<br>Відсоткова знижка (%) -40%"
+  }, {
+    "rulesGroupId": "caf364ab-ce54-454b-b270-63a44bbbd7d3",
+    "suppliers": [21605],
+    "sizes": [13, 5],
+    "type": "percentDiscount",
+    "value": 45,
+    "marginType": "percentMargin",
+    "marginValue": 15,
+    "marginRoundType": "ceilBy100",
+    "id": 634,
+    "lookup": {
+      "suppliers": {
+        "21605": 21605
+      },
+      "sizes": {
+        "5": 5,
+        "13": 13
+      }
+    },
+    "conditionText": "ЗГІА|3x4,1.2x1.8",
+    "valueText": "-45%",
+    "description": "Застосовані умови для знижки:<br>Саплаєри (1): ЗГІА<br>Розміри (2): 3x4,1.2x1.8<br>Відсоткова знижка (%) -45%"
+  }, {
+    "rulesGroupId": "caf364ab-ce54-454b-b270-63a44bbbd7d3",
+    "suppliers": [20512],
+    "cities": [4],
+    "sizes": [1],
+    "type": "fixedPricePerMonth",
+    "value": 5000,
+    "marginType": "percentMargin",
+    "marginValue": 15,
+    "marginRoundType": "ceilBy100",
+    "id": 635,
+    "lookup": {
+      "suppliers": {
+        "20512": 20512
+      },
+      "cities": {
+        "4": 4
+      },
+      "sizes": {
+        "1": 1
+      }
+    },
+    "conditionText": "ГАЛИЦЬКІ КОНТРАКТИ|Львів|3x6",
+    "valueText": "5000 UAH",
+    "description": "Застосовані умови для знижки:<br>Саплаєри (1): ГАЛИЦЬКІ КОНТРАКТИ<br>Міста (1): Львів<br>Розміри (1): 3x6<br>Фіксована ціна за місяць (UAH) 5000 UAH"
+  }, {
+    "rulesGroupId": "caf364ab-ce54-454b-b270-63a44bbbd7d3",
+    "suppliers": [20512],
+    "cities": [4],
+    "sizes": [34],
+    "type": "fixedPricePerMonth",
+    "value": 2500,
+    "marginType": "percentMargin",
+    "marginValue": 15,
+    "marginRoundType": "ceilBy100",
+    "id": 636,
+    "lookup": {
+      "suppliers": {
+        "20512": 20512
+      },
+      "cities": {
+        "4": 4
+      },
+      "sizes": {
+        "34": 34
+      }
+    },
+    "conditionText": "ГАЛИЦЬКІ КОНТРАКТИ|Львів|2.3x3.14",
+    "valueText": "2500 UAH",
+    "description": "Застосовані умови для знижки:<br>Саплаєри (1): ГАЛИЦЬКІ КОНТРАКТИ<br>Міста (1): Львів<br>Розміри (1): 2.3x3.14<br>Фіксована ціна за місяць (UAH) 2500 UAH"
+  }, {
+    "rulesGroupId": "caf364ab-ce54-454b-b270-63a44bbbd7d3",
+    "suppliers": [20512],
+    "cities": [24, 25, 20],
+    "type": "fixedPricePerMonth",
+    "value": 2000,
+    "marginType": "percentMargin",
+    "marginValue": 15,
+    "marginRoundType": "ceilBy100",
+    "id": 637,
+    "lookup": {
+      "suppliers": {
+        "20512": 20512
+      },
+      "cities": {
+        "20": 20,
+        "24": 24,
+        "25": 25
+      }
+    },
+    "conditionText": "ГАЛИЦЬКІ КОНТРАКТИ|Рівне,Тернопіль,Х...",
+    "valueText": "2000 UAH",
+    "description": "Застосовані умови для знижки:<br>Саплаєри (1): ГАЛИЦЬКІ КОНТРАКТИ<br>Міста (3): Рівне,Тернопіль,Хмельницький<br>Фіксована ціна за місяць (UAH) 2000 UAH"
+  }, {
+    "rulesGroupId": "caf364ab-ce54-454b-b270-63a44bbbd7d3",
+    "suppliers": [20512],
+    "cities": [12, 15, 31],
+    "type": "fixedPricePerMonth",
+    "value": 3000,
+    "marginType": "percentMargin",
+    "marginValue": 15,
+    "marginRoundType": "ceilBy100",
+    "id": 638,
+    "lookup": {
+      "suppliers": {
+        "20512": 20512
+      },
+      "cities": {
+        "12": 12,
+        "15": 15,
+        "31": 31
+      }
+    },
+    "conditionText": "ГАЛИЦЬКІ КОНТРАКТИ|Івано-Франківськ,...",
+    "valueText": "3000 UAH",
+    "description": "Застосовані умови для знижки:<br>Саплаєри (1): ГАЛИЦЬКІ КОНТРАКТИ<br>Міста (3): Івано-Франківськ,Ужгород,Чернівці<br>Фіксована ціна за місяць (UAH) 3000 UAH"
+  }, {
+    "rulesGroupId": "caf364ab-ce54-454b-b270-63a44bbbd7d3",
+    "suppliers": [20512],
+    "type": "fixedPricePerMonth",
+    "value": 3500,
+    "marginType": "percentMargin",
+    "marginValue": 15,
+    "marginRoundType": "ceilBy100",
+    "id": 639,
+    "lookup": {
+      "suppliers": {
+        "20512": 20512
+      }
+    },
+    "conditionText": "ГАЛИЦЬКІ КОНТРАКТИ",
+    "valueText": "3500 UAH",
+    "description": "Застосовані умови для знижки:<br>Саплаєри (1): ГАЛИЦЬКІ КОНТРАКТИ<br>Фіксована ціна за місяць (UAH) 3500 UAH"
+  }, {
+    "rulesGroupId": "caf364ab-ce54-454b-b270-63a44bbbd7d3",
+    "suppliers": [1],
+    "cities": [1],
+    "type": "percentDiscount",
+    "value": 70,
+    "marginType": "zeroMarkup",
+    "marginValue": null,
+    "id": 640,
+    "lookup": {
+      "suppliers": {
+        "1": 1
+      },
+      "cities": {
+        "1": 1
+      }
+    },
+    "conditionText": "BIGMEDIA|Київ",
+    "valueText": "-70%",
+    "description": "Застосовані умови для знижки:<br>Саплаєри (1): BIGMEDIA<br>Міста (1): Київ<br>Відсоткова знижка (%) -70%"
+  }, {
+    "rulesGroupId": "caf364ab-ce54-454b-b270-63a44bbbd7d3",
+    "suppliers": [1],
+    "type": "percentDiscount",
+    "value": 55,
+    "marginType": "zeroMarkup",
+    "id": 641,
+    "lookup": {
+      "suppliers": {
+        "1": 1
+      }
+    },
+    "conditionText": "BIGMEDIA",
+    "valueText": "-55%",
+    "description": "Застосовані умови для знижки:<br>Саплаєри (1): BIGMEDIA<br>Відсоткова знижка (%) -55%"
+  }, {
+    "rulesGroupId": "caf364ab-ce54-454b-b270-63a44bbbd7d3",
+    "suppliers": [24377],
+    "sizes": [3, 39],
+    "type": "percentDiscount",
+    "value": 10,
+    "marginType": "percentMargin",
+    "marginValue": 15,
+    "marginRoundType": "ceilBy100",
+    "id": 644,
+    "lookup": {
+      "suppliers": {
+        "24377": 24377
+      },
+      "sizes": {
+        "3": 3,
+        "39": 39
+      }
+    },
+    "conditionText": "БІЛЛБОРД|3x12,4x12",
+    "valueText": "-10%",
+    "description": "Застосовані умови для знижки:<br>Саплаєри (1): БІЛЛБОРД<br>Розміри (2): 3x12,4x12<br>Відсоткова знижка (%) -10%"
+  }, {
+    "rulesGroupId": "caf364ab-ce54-454b-b270-63a44bbbd7d3",
+    "suppliers": [24377],
+    "type": "fixedDiscount",
+    "value": 200,
+    "marginType": "percentMargin",
+    "marginValue": 10,
+    "marginRoundType": "ceilBy100",
+    "id": 645,
+    "lookup": {
+      "suppliers": {
+        "24377": 24377
+      }
+    },
+    "conditionText": "БІЛЛБОРД",
+    "valueText": "-200 UAH",
+    "description": "Застосовані умови для знижки:<br>Саплаєри (1): БІЛЛБОРД<br>Знижка (UAH) -200 UAH"
+  }, {
+    "rulesGroupId": "caf364ab-ce54-454b-b270-63a44bbbd7d3",
+    "suppliers": [20582],
+    "sizes": [1],
+    "sidetypes": [492, 493],
+    "type": "fixedPricePerMonth",
+    "value": 2000,
+    "marginType": "percentMargin",
+    "marginValue": 15,
+    "marginRoundType": "ceilBy100",
+    "id": 646,
+    "lookup": {
+      "suppliers": {
+        "20582": 20582
+      },
+      "sizes": {
+        "1": 1
+      },
+      "sidetypes": {
+        "492": 492,
+        "493": 493
+      }
+    },
+    "conditionText": "САС|3x6|Призмавіжн,Щит",
+    "valueText": "2000 UAH",
+    "description": "Застосовані умови для знижки:<br>Саплаєри (1): САС<br>Розміри (1): 3x6<br>Типи поверхні (2): Призмавіжн,Щит<br>Фіксована ціна за місяць (UAH) 2000 UAH"
+  }, {
+    "rulesGroupId": "caf364ab-ce54-454b-b270-63a44bbbd7d3",
+    "suppliers": [20582],
+    "sizes": [5, 13],
+    "type": "fixedPricePerMonth",
+    "value": 1000,
+    "marginType": "percentMargin",
+    "marginValue": 20,
+    "marginRoundType": "ceilBy100",
+    "id": 647,
+    "lookup": {
+      "suppliers": {
+        "20582": 20582
+      },
+      "sizes": {
+        "5": 5,
+        "13": 13
+      }
+    },
+    "conditionText": "САС|3x4,1.2x1.8",
+    "valueText": "1000 UAH",
+    "description": "Застосовані умови для знижки:<br>Саплаєри (1): САС<br>Розміри (2): 3x4,1.2x1.8<br>Фіксована ціна за місяць (UAH) 1000 UAH"
+  }, {
+    "rulesGroupId": "caf364ab-ce54-454b-b270-63a44bbbd7d3",
+    "suppliers": [23168],
+    "type": "percentDiscount",
+    "value": 60,
+    "marginType": "percentMargin",
+    "marginValue": 15,
+    "marginRoundType": "ceilBy100",
+    "id": 651,
+    "lookup": {
+      "suppliers": {
+        "23168": 23168
+      }
+    },
+    "conditionText": "ДОВІРА АУТДОР",
+    "valueText": "-60%",
+    "description": "Застосовані умови для знижки:<br>Саплаєри (1): ДОВІРА АУТДОР<br>Відсоткова знижка (%) -60%"
+  }, {
+    "rulesGroupId": "caf364ab-ce54-454b-b270-63a44bbbd7d3",
+    "suppliers": [23562],
+    "sizes": [1],
+    "sidetypes": [493],
+    "type": "fixedPricePerMonth",
+    "value": 4000,
+    "marginType": "percentMargin",
+    "marginValue": 15,
+    "marginRoundType": "ceilBy100",
+    "id": 652,
+    "lookup": {
+      "suppliers": {
+        "23562": 23562
+      },
+      "sizes": {
+        "1": 1
+      },
+      "sidetypes": {
+        "493": 493
+      }
+    },
+    "conditionText": "СТ-РЕКЛАМА|3x6|Щит",
+    "valueText": "4000 UAH",
+    "description": "Застосовані умови для знижки:<br>Саплаєри (1): СТ-РЕКЛАМА<br>Розміри (1): 3x6<br>Типи поверхні (1): Щит<br>Фіксована ціна за місяць (UAH) 4000 UAH"
+  }, {
+    "rulesGroupId": "caf364ab-ce54-454b-b270-63a44bbbd7d3",
+    "suppliers": [23562],
+    "sizes": [1, 34, 5],
+    "sidetypes": [492, 488],
+    "type": "fixedPricePerMonth",
+    "value": 4500,
+    "marginType": "percentMargin",
+    "marginValue": 15,
+    "marginRoundType": "ceilBy100",
+    "id": 653,
+    "lookup": {
+      "suppliers": {
+        "23562": 23562
+      },
+      "sizes": {
+        "1": 1,
+        "5": 5,
+        "34": 34
+      },
+      "sidetypes": {
+        "488": 488,
+        "492": 492
+      }
+    },
+    "conditionText": "СТ-РЕКЛАМА|3x6,3x4,2.3x3.14|Скрол,Призмавіжн",
+    "valueText": "4500 UAH",
+    "description": "Застосовані умови для знижки:<br>Саплаєри (1): СТ-РЕКЛАМА<br>Розміри (3): 3x6,3x4,2.3x3.14<br>Типи поверхні (2): Скрол,Призмавіжн<br>Фіксована ціна за місяць (UAH) 4500 UAH"
+  }, {
+    "rulesGroupId": "caf364ab-ce54-454b-b270-63a44bbbd7d3",
+    "suppliers": [20582],
+    "sizes": [],
+    "type": "percentDiscount",
+    "value": 15,
+    "marginType": "percentMargin",
+    "marginValue": 15,
+    "marginRoundType": "ceilBy100",
+    "id": 654,
+    "lookup": {
+      "suppliers": {
+        "20582": 20582
+      }
+    },
+    "conditionText": "САС",
+    "valueText": "-15%",
+    "description": "Застосовані умови для знижки:<br>Саплаєри (1): САС<br>Відсоткова знижка (%) -15%"
+  }, {
+    "rulesGroupId": "caf364ab-ce54-454b-b270-63a44bbbd7d3",
+    "suppliers": [20509],
+    "cities": [],
+    "sizes": [1, 8],
+    "sidetypes": [493],
+    "type": "fixedPricePerMonth",
+    "value": 4000,
+    "marginType": "percentMargin",
+    "marginValue": 15,
+    "marginRoundType": "ceilBy100",
+    "id": 655,
+    "lookup": {
+      "suppliers": {
+        "20509": 20509
+      },
+      "sizes": {
+        "1": 1,
+        "8": 8
+      },
+      "sidetypes": {
+        "493": 493
+      }
+    },
+    "conditionText": "СВ АУТДОР|3x6,6x3|Щит",
+    "valueText": "4000 UAH",
+    "description": "Застосовані умови для знижки:<br>Саплаєри (1): СВ АУТДОР<br>Розміри (2): 3x6,6x3<br>Типи поверхні (1): Щит<br>Фіксована ціна за місяць (UAH) 4000 UAH"
+  }, {
+    "rulesGroupId": "caf364ab-ce54-454b-b270-63a44bbbd7d3",
+    "suppliers": [20509],
+    "sizes": [1],
+    "sidetypes": [492],
+    "type": "fixedPricePerMonth",
+    "value": 4400,
+    "marginType": "percentMargin",
+    "marginValue": 15,
+    "marginRoundType": "ceilBy100",
+    "id": 656,
+    "lookup": {
+      "suppliers": {
+        "20509": 20509
+      },
+      "sizes": {
+        "1": 1
+      },
+      "sidetypes": {
+        "492": 492
+      }
+    },
+    "conditionText": "СВ АУТДОР|3x6|Призмавіжн",
+    "valueText": "4400 UAH",
+    "description": "Застосовані умови для знижки:<br>Саплаєри (1): СВ АУТДОР<br>Розміри (1): 3x6<br>Типи поверхні (1): Призмавіжн<br>Фіксована ціна за місяць (UAH) 4400 UAH"
+  }, {
+    "rulesGroupId": "caf364ab-ce54-454b-b270-63a44bbbd7d3",
+    "suppliers": [20509],
+    "sizes": [1],
+    "sidetypes": [541],
+    "type": "fixedPricePerMonth",
+    "value": 6500,
+    "marginType": "percentMargin",
+    "marginValue": 15,
+    "marginRoundType": "ceilBy100",
+    "id": 657,
+    "lookup": {
+      "suppliers": {
+        "20509": 20509
+      },
+      "sizes": {
+        "1": 1
+      },
+      "sidetypes": {
+        "541": 541
+      }
+    },
+    "conditionText": "СВ АУТДОР|3x6|Digital",
+    "valueText": "6500 UAH",
+    "description": "Застосовані умови для знижки:<br>Саплаєри (1): СВ АУТДОР<br>Розміри (1): 3x6<br>Типи поверхні (1): Digital<br>Фіксована ціна за місяць (UAH) 6500 UAH"
+  }, {
+    "rulesGroupId": "caf364ab-ce54-454b-b270-63a44bbbd7d3",
+    "suppliers": [20509],
+    "sizes": [34],
+    "sidetypes": [488],
+    "type": "fixedPricePerMonth",
+    "value": 3000,
+    "marginType": "percentMargin",
+    "marginValue": 15,
+    "marginRoundType": "ceilBy100",
+    "id": 658,
+    "lookup": {
+      "suppliers": {
+        "20509": 20509
+      },
+      "sizes": {
+        "34": 34
+      },
+      "sidetypes": {
+        "488": 488
+      }
+    },
+    "conditionText": "СВ АУТДОР|2.3x3.14|Скрол",
+    "valueText": "3000 UAH",
+    "description": "Застосовані умови для знижки:<br>Саплаєри (1): СВ АУТДОР<br>Розміри (1): 2.3x3.14<br>Типи поверхні (1): Скрол<br>Фіксована ціна за місяць (UAH) 3000 UAH"
+  }, {
+    "rulesGroupId": "caf364ab-ce54-454b-b270-63a44bbbd7d3",
+    "suppliers": [20509],
+    "sizes": [13],
+    "sidetypes": [488],
+    "type": "fixedPricePerMonth",
+    "value": 1100,
+    "marginType": "percentMargin",
+    "marginValue": 15,
+    "marginRoundType": "ceilBy100",
+    "id": 659,
+    "lookup": {
+      "suppliers": {
+        "20509": 20509
+      },
+      "sizes": {
+        "13": 13
+      },
+      "sidetypes": {
+        "488": 488
+      }
+    },
+    "conditionText": "СВ АУТДОР|1.2x1.8|Скрол",
+    "valueText": "1100 UAH",
+    "description": "Застосовані умови для знижки:<br>Саплаєри (1): СВ АУТДОР<br>Розміри (1): 1.2x1.8<br>Типи поверхні (1): Скрол<br>Фіксована ціна за місяць (UAH) 1100 UAH"
+  }, {
+    "rulesGroupId": "caf364ab-ce54-454b-b270-63a44bbbd7d3",
+    "suppliers": [20509],
+    "sizes": [13],
+    "sidetypes": [487],
+    "type": "fixedPricePerMonth",
+    "value": 1000,
+    "marginType": "percentMargin",
+    "marginValue": 15,
+    "marginRoundType": "ceilBy100",
+    "id": 660,
+    "lookup": {
+      "suppliers": {
+        "20509": 20509
+      },
+      "sizes": {
+        "13": 13
+      },
+      "sidetypes": {
+        "487": 487
+      }
+    },
+    "conditionText": "СВ АУТДОР|1.2x1.8|Сітілайт",
+    "valueText": "1000 UAH",
+    "description": "Застосовані умови для знижки:<br>Саплаєри (1): СВ АУТДОР<br>Розміри (1): 1.2x1.8<br>Типи поверхні (1): Сітілайт<br>Фіксована ціна за місяць (UAH) 1000 UAH"
+  }, {
+    "rulesGroupId": "caf364ab-ce54-454b-b270-63a44bbbd7d3",
+    "suppliers": [20509],
+    "sizes": [39],
+    "sidetypes": [],
+    "type": "fixedPricePerMonth",
+    "value": 13000,
+    "marginType": "percentMargin",
+    "marginValue": 15,
+    "marginRoundType": "ceilBy100",
+    "id": 661,
+    "lookup": {
+      "suppliers": {
+        "20509": 20509
+      },
+      "sizes": {
+        "39": 39
+      }
+    },
+    "conditionText": "СВ АУТДОР|4x12",
+    "valueText": "13000 UAH",
+    "description": "Застосовані умови для знижки:<br>Саплаєри (1): СВ АУТДОР<br>Розміри (1): 4x12<br>Фіксована ціна за місяць (UAH) 13000 UAH"
+  }, {
+    "rulesGroupId": "caf364ab-ce54-454b-b270-63a44bbbd7d3",
+    "suppliers": [20509],
+    "sizes": [41],
+    "type": "fixedPricePerMonth",
+    "value": 4400,
+    "marginType": "percentMargin",
+    "marginValue": 15,
+    "marginRoundType": "ceilBy100",
+    "id": 662,
+    "lookup": {
+      "suppliers": {
+        "20509": 20509
+      },
+      "sizes": {
+        "41": 41
+      }
+    },
+    "conditionText": "СВ АУТДОР|2x4",
+    "valueText": "4400 UAH",
+    "description": "Застосовані умови для знижки:<br>Саплаєри (1): СВ АУТДОР<br>Розміри (1): 2x4<br>Фіксована ціна за місяць (UAH) 4400 UAH"
+  }, {
+    "rulesGroupId": "caf364ab-ce54-454b-b270-63a44bbbd7d3",
+    "suppliers": [20509],
+    "sizes": [42],
+    "type": "fixedPricePerMonth",
+    "value": 7000,
+    "marginType": "percentMargin",
+    "marginValue": 15,
+    "marginRoundType": "ceilBy100",
+    "id": 663,
+    "lookup": {
+      "suppliers": {
+        "20509": 20509
+      },
+      "sizes": {
+        "42": 42
+      }
+    },
+    "conditionText": "СВ АУТДОР|2x8",
+    "valueText": "7000 UAH",
+    "description": "Застосовані умови для знижки:<br>Саплаєри (1): СВ АУТДОР<br>Розміри (1): 2x8<br>Фіксована ціна за місяць (UAH) 7000 UAH"
+  }, {
+    "rulesGroupId": "caf364ab-ce54-454b-b270-63a44bbbd7d3",
+    "suppliers": [20509],
+    "sizes": [40, 7],
+    "type": "fixedPricePerMonth",
+    "value": 9000,
+    "marginType": "percentMargin",
+    "marginValue": 15,
+    "marginRoundType": "ceilBy100",
+    "id": 664,
+    "lookup": {
+      "suppliers": {
+        "20509": 20509
+      },
+      "sizes": {
+        "7": 7,
+        "40": 40
+      }
+    },
+    "conditionText": "СВ АУТДОР|4x8,2x16",
+    "valueText": "9000 UAH",
+    "description": "Застосовані умови для знижки:<br>Саплаєри (1): СВ АУТДОР<br>Розміри (2): 4x8,2x16<br>Фіксована ціна за місяць (UAH) 9000 UAH"
+  }, {
+    "rulesGroupId": "caf364ab-ce54-454b-b270-63a44bbbd7d3",
+    "suppliers": [20509],
+    "sizes": [34],
+    "sidetypes": [541],
+    "type": "fixedPricePerMonth",
+    "value": 3800,
+    "marginType": "percentMargin",
+    "marginValue": 15,
+    "marginRoundType": "ceilBy100",
+    "id": 665,
+    "lookup": {
+      "suppliers": {
+        "20509": 20509
+      },
+      "sizes": {
+        "34": 34
+      },
+      "sidetypes": {
+        "541": 541
+      }
+    },
+    "conditionText": "СВ АУТДОР|2.3x3.14|Digital",
+    "valueText": "3800 UAH",
+    "description": "Застосовані умови для знижки:<br>Саплаєри (1): СВ АУТДОР<br>Розміри (1): 2.3x3.14<br>Типи поверхні (1): Digital<br>Фіксована ціна за місяць (UAH) 3800 UAH"
+  }, {
+    "rulesGroupId": "caf364ab-ce54-454b-b270-63a44bbbd7d3",
+    "suppliers": [20583],
+    "type": "percentDiscount",
+    "value": 0,
+    "marginType": "percentMargin",
+    "marginValue": 15,
+    "marginRoundType": "ceilBy100",
+    "id": 666,
+    "lookup": {
+      "suppliers": {
+        "20583": 20583
+      }
+    },
+    "conditionText": "ВІАЛ МЕДІА",
+    "valueText": "-0%",
+    "description": "Застосовані умови для знижки:<br>Саплаєри (1): ВІАЛ МЕДІА<br>Відсоткова знижка (%) -0%"
+  }]
+}]

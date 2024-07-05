@@ -1,0 +1,76 @@
+Ext.define("Bigmedia.lib.Constants", {
+    singleton: true,
+
+    authAction: {
+    	"setPermissions": 1,
+    	"editUsers": 2,
+    	"editReferences": 3,
+    	"showAdvCampaigns": 4,
+    	"showCampaignCard": 5,
+    	"showPlaceCard": 6,
+    	"showOrgCard": 7,
+    	"showUserCard": 8,
+    	"showPosterCard": 9,
+    	"showProposalCard": 10,
+    	"showSideCard": 11,
+    	"editDemounts": 12,
+    	"showReservations": 13,
+    	"showOrgs": 14,
+    	"showFreeSides": 15,
+    	"showServOpers": 16,
+    	"showStatistics": 17,
+    	"genPresentation": 18,
+    	"showMessages": 19,
+    	"showElectricity": 20,
+    	"showSupplierCard": 21,
+    	"showStatisticsManagers": 23,
+    	"showCalendar": 24,
+    	"showPhotoRep": 25,
+    	"showStatisticsPrice": 27,
+    	"editMap": 28,
+    	"showServWorks": 29,
+    	"showPrice": 30,
+    	"showStoreHouse": 31,
+    	"setPresentationPhoto": 32,
+    	"setPhotoReportFee": 33,
+    	"changePhotoRepDeadline": 34,
+    	"deleteServOpers": 35,
+    	"approvePrice": 36,
+    	"approveFinance": 37,
+    	"showStatisticsDebit": 38,
+    	"showContracts": 39,
+    	"showInvoices": 40,
+    	"showStatisticsFinanceInput": 41,
+    	"approvePayments": 42,
+    	"showStatisticsPayments": 43,
+    	"showRents": 44,
+    	"showRentContracts": 45,
+    	"showPayments": 46,
+    	"calculateBonuses": 47,
+    	"setNewClientField": 48,
+    	"showClientCard": 22,
+    	"genHardPhotoRep": 26,
+        "showPlanner": 'showPlanner'
+    },
+    authAccessType: {
+        "readOnly" : 1,
+        "full" : 2,
+        "special": 3
+    },
+    campPosterType: {
+        "Poster": 1,
+        "Flex": 2,
+        "Extender": 3,
+        "PosterWithExtender": 4,
+        "Sticker": 5,
+        "Scroll": 6
+    },
+    campCampaignType: {
+        "CommercialNeutral": 1,
+        "Social": 2,
+        "CommercialTobaccoAlcohol": 3,
+        "Politics": 4
+    }
+}, function(){
+    Bigmedia.Enum = this;
+});

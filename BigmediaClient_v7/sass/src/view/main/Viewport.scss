@@ -1,0 +1,459 @@
+// .header-right-profile-image .x-btn-icon > .x-btn-icon-el-default-large {
+//     width: 35px;
+//     height: 35px;
+// }
+.user-menu-btn .x-btn-icon > .x-btn-icon-el-user-menu-large {
+    border-radius: 20px;
+    background-size: cover;
+}
+
+// .bigmedia-headerbar .user-menu-btn {
+//     margin: '0 10 0 0';
+// }
+
+// .bigmedia-headerbar .x-btn {
+//     padding: 0px;
+//     margin: 0px;
+// }
+$plannerfield-bgcolor: #F5F5F5;
+@include extjs-text-field-ui(
+  $ui: 'plannerfield',
+  $ui-background-color: $plannerfield-bgcolor,
+  $ui-padding: 4px 10px,
+  $ui-border-width: 0 0 1px,
+  $ui-font-size: 16px,
+  $ui-height: 40px,
+  $ui-font-size: 12px,
+  $ui-trigger-background-color: $plannerfield-bgcolor
+);
+
+@include extjs-window-ui(
+$ui: 'material-dialog',
+$ui-border-radius: 20px 0px 0px 20px,
+$ui-header-font-size: 14px,
+$ui-header-line-height: 14px,
+$ui-header-text-padding: 0px 0px 3px 20px,
+$ui-header-padding: 0px 0px 10px 0px,
+// $ui-header-icon-width: 20px,
+// $ui-header-icon-height: 20px,
+$ui-body-background-color: #FFFFFF,
+$ui-background-color: #FFFFFF
+);
+
+@include extjs-button-large-ui(
+    $ui: 'base-blue',
+    // $line-height: 34px,
+    $background-color: $base-color,
+    $border-color: darken($base-color, 5%),
+    $border-radius: 8px,
+    $color: #FFFFFF
+);
+@include extjs-button-toolbar-large-ui(
+    $ui: 'base-blue',
+    $background-color: $base-color,
+    $border-color: darken($base-color, 5%),
+    $border-radius: 8px,
+    $font-size: 14px,
+    $color: #FFFFFF
+);
+
+@include treelist-ui(
+    $ui: 'navigation',
+    $padding: 0 10px,
+
+    // Black-ish background color
+    $background-color: $panel-navigation-background-color,
+    $toolstrip-background-color: #32404e,
+
+    $tool-float-indicator-color: $panel-header-background-color,
+    $tool-float-indicator-width: 5px,
+
+    $tool-indicator-selected-color: $panel-header-background-color,
+    $tool-indicator-selected-width: 5px,
+    $tool-selected-background-color: mix(white, $panel-navigation-background-color, 10%),
+    //$tool-selected-color: #fff,
+    //$tool-selected-background-color: $panel-header-background-color,
+
+    // Darker background for expanded subtrees
+    $item-expanded-background-color: #2c3845,
+
+    // Taller line height
+    $item-line-height : $panel-navigation-item-line-height,
+
+    $row-over-background-color: mix(white, $panel-navigation-background-color, 5%),
+    $row-selected-background-color: mix(white, $panel-navigation-background-color, 10%),
+
+    // Off-white text
+    $item-icon-color: $panel-navigation-item-text-color,
+    $item-expander-color: #fff,
+    $item-text-color: #ADB3B8,
+
+    // Brighter when hovered
+    $item-icon-over-color: #fff,
+    $item-expander-over-color: #fff,
+    $item-text-over-color: mix(white, $panel-navigation-item-text-color, 50%),
+    $item-text-font-size: 14px,
+
+    // Various sizes for the pieces:
+    $item-icon-font-size: 18px,
+    $item-icon-width: 44px,
+    $item-expander-font-size: 16px,
+    $item-expander-width: 24px,
+
+    // Style the "row indicator" (the vertical stripe on the left edge):
+    $row-indicator-width: 5px,
+    $row-indicator-selected-color: $panel-header-background-color,
+    $row-indicator-selected-over-color: lighten($panel-header-background-color, 7%),
+    $row-indicator-over-color: transparent
+);
+
+$dashboard-item-spacing: 20px;
+//--------------------------------------------------------
+// Create classes for full-size responsive items
+.small-100 {
+    width: calc(100% - #{$dashboard-item-spacing});
+}
+
+.small-60 {
+    width: calc(60% - #{$dashboard-item-spacing});
+}
+
+.small-50 {
+    width: calc(50% - #{$dashboard-item-spacing});
+}
+
+.small-40 {
+    width: calc(40% - #{$dashboard-item-spacing});
+}
+
+.small-20 {
+    width: calc(20% - #{$dashboard-item-spacing});
+}
+
+@media (min-width: 1000px) {
+    .big-100 {
+        width: calc(100% - #{$dashboard-item-spacing});
+    }
+
+    .big-60 {
+        width: calc(60% - #{$dashboard-item-spacing});
+    }
+
+    .big-50 {
+        width: calc(50% - #{$dashboard-item-spacing});
+    }
+
+    .big-40 {
+        width: calc(40% - #{$dashboard-item-spacing});
+    }
+
+    .big-33 {
+        width: calc(33.3% - #{$dashboard-item-spacing});
+    }
+
+    .big-20 {
+        width: calc(20% - #{$dashboard-item-spacing});
+    }
+}
+
+//--------------------------------------------------------
+// And classes for small-size responsive items
+
+ .x-responsivecolumn-small {
+     > .small-100 {
+         @include responsivecolumn-item(100%);
+     }
+
+     > .small-50 {
+         @include responsivecolumn-item(50%);
+     }
+}
+
+//--------------------------------------------------------
+
+.sencha-logo {
+    background-color: $base-color;
+    height: 65px;
+
+    font-size: 16px;
+    color: $lightest-color;
+    margin-left: 17px;
+
+    .main-logo {
+        line-height: 65px;
+        img{
+            margin-left: 22px;
+            margin-right: 22px;
+            top: 8px;
+            position: relative;
+        }
+    }
+}
+
+.bigmedia-headerbar {
+  position:fixed;
+  width:100%;
+  z-index:10;
+  border:none;
+  .header-right-profile-image {
+    border-radius: 20px;
+    width: 35px;
+    height: 35px;
+  }
+}
+
+.top-english-button{
+    .x-btn-icon-el{
+        width:21px;
+        height:14px;
+    }
+}
+.collapsed{
+    .hot-icon,.new-icon{
+        &:after{
+            display:none;
+        }
+    }
+    .x-tree-elbow-img{
+        display:none;
+    }
+
+    .x-tree-node-text {
+        display:none;
+    }
+}
+.x-grid-cell{
+    position:relative;
+}
+.hot-icon,.new-icon{
+    &.hot-icon:after{
+        content: "HOT";
+        background:#e3495a;
+    }
+    &.new-icon:after{
+        content: "NEW";
+        background:#ff4444;
+    }
+    &:after{
+        height: 18px;
+        width: 34px;
+        display: inline-block;
+        position: absolute;
+        top: 2px;
+        right: 0px;
+        text-align:center;
+        color: $lightest-color;
+        font-weight: bold;
+        font-size: 10px;
+        line-height: 18px;
+    }
+}
+
+.x-treelist-item-tool {
+    height: $panel-navigation-item-line-height;
+    &.hot-icon:after, &.new-icon:after{
+        background: $panel-header-background-color;
+        content: '';
+    }
+}
+
+.toolbar-btn-shadow{
+    @include box-shadow(0 1px 2px rgba(0, 0, 0, 0.2));
+    .x-btn-over{
+        background-color: $button-toolbar-hover-background-color;
+    }
+}
+
+//Add border around html editor field
+.x-html-editor-input{
+    border:1px solid #ccc;
+}
+
+.delete-focus-bg {
+    &:focus, &:hover{
+        background: none;
+    }
+}
+
+//UI Styles for buttons
+@include extjs-button-small-ui(
+    $ui: 'soft-blue',
+    $background-color: $color-soft-blue,
+    $border-color: darken($color-soft-blue, 5%)
+);
+@include extjs-button-large-ui(
+    $ui: 'soft-blue',
+    $line-height: 34px,
+    $background-color: $color-soft-blue,
+    $border-color: darken($color-soft-blue, 5%)
+);
+@include extjs-button-toolbar-small-ui(
+    $ui: 'soft-blue',
+    $background-color: $color-soft-blue,
+    $border-color: darken($color-soft-blue, 5%)
+);
+
+
+@include extjs-button-small-ui(
+    $ui: 'soft-cyan',
+    $background-color: $color-soft-cyan,
+    $border-color: darken($color-soft-cyan, 5%)
+);
+@include extjs-button-toolbar-small-ui(
+    $ui: 'soft-cyan',
+    $background-color: $color-soft-cyan,
+    $border-color: darken($color-soft-cyan, 5%)
+);
+
+
+@include extjs-button-small-ui(
+    $ui: 'soft-green',
+    $background-color: $color-soft-green,
+    $border-color:darken($color-soft-green, 5%)
+);
+@include extjs-button-large-ui(
+    $ui: 'soft-green',
+    $line-height: 34px,
+    $background-color: $color-soft-green,
+    $border-color:darken($color-soft-green, 5%)
+);
+@include extjs-button-toolbar-small-ui(
+    $ui: 'soft-green',
+    $background-color: $color-soft-green,
+    $border-color:darken($color-soft-green, 5%)
+);
+
+
+@include extjs-button-large-ui(
+    $ui: 'soft-red',
+    $line-height: 34px,
+    $background-color: $color-soft-red,
+    $border-color:darken($color-soft-red, 5%)
+);
+@include extjs-button-small-ui(
+    $ui: 'soft-red',
+    $background-color: $color-soft-red,
+    $border-color:darken($color-soft-red, 5%)
+);
+@include extjs-button-toolbar-small-ui(
+    $ui: 'soft-red',
+    $background-color: $color-soft-red,
+    $border-color:darken($color-soft-red, 5%)
+);
+
+@include extjs-button-small-ui(
+$ui: 'map-soft-red',
+// $background-color: $color-soft-red,
+// $border-color:darken($color-soft-red, 5%)
+$background-color: rgba($color-soft-red,0.3),
+$border-color: rgba(lighten($color-soft-red, 5%),0.1),
+$border-width: 3px,
+$border-radius: 4px
+);
+
+@include extjs-button-small-ui(
+    $ui: 'soft-purple',
+    $background-color: $color-soft-purple,
+    $border-color:darken($color-soft-purple, 5%)
+);
+@include extjs-button-toolbar-small-ui(
+    $ui: 'soft-purple',
+    $background-color: $color-soft-purple,
+    $border-color:darken($color-soft-purple, 5%)
+);
+
+
+@include extjs-button-small-ui(
+    $ui: 'gray',
+    $background-color: $color-gray,
+    $border-color:darken($color-gray, 5%)
+);
+@include extjs-button-large-ui(
+    $ui: 'gray',
+    $line-height: 34px,
+    $background-color: $color-gray,
+    $border-color:darken($color-gray, 5%)
+);
+@include extjs-button-toolbar-small-ui(
+    $ui: 'gray',
+    $background-color: $color-gray,
+    $border-color:darken($color-gray, 5%)
+);
+
+@include extjs-button-small-ui(
+    $ui: 'green',
+    $background-color: $color-green,
+    $border-color:darken($color-green, 5%)
+);
+@include extjs-button-toolbar-small-ui(
+    $ui: 'green',
+    $background-color: $color-green,
+    $border-color:darken($color-green, 5%)
+);
+
+
+@include extjs-button-small-ui(
+    $ui: 'blue',
+    $background-color: $color-blue,
+    $border-color:darken($color-blue, 5%)
+);
+@include extjs-button-toolbar-small-ui(
+    $ui: 'blue',
+    $background-color: $color-blue,
+    $border-color:darken($color-blue, 5%)
+);
+
+@include extjs-button-large-ui(
+$ui: 'shopping-cart',
+$line-height: 34px,
+$background-color: transparent,
+$border-width: 0,
+$color: $color-gray,
+$glyph-color: $color-gray
+);
+@include extjs-button-large-ui(
+$ui: 'user-menu',
+$line-height: 34px,
+$background-color: transparent,
+$border-width: 0,
+$text-padding: 9px,
+$icon-size: 35px,
+// $icon-spacing: 4px,
+// $split-width: 0,
+// $split-line-width: 0,
+$color: $color-gray,
+$glyph-color: $color-gray
+);
+@include extjs-button-large-ui(
+$ui: 'faces',
+$line-height: 34px,
+$background-color: transparent,
+$border-width: 0,
+$color: $color-gray,
+$glyph-color: $color-gray
+);
+@include extjs-button-large-ui(
+$ui: 'campaigns',
+$line-height: 34px,
+$background-color: transparent,
+$border-width: 0,
+$color: $color-gray,
+$glyph-color: $color-gray
+);
+
+#app-header .x-btn-pressed {
+    padding: 4px 9px 9px 9px;
+    border-width: 5px 0px 0px 0px;
+}
+
+#gridFaces .x-btn-pressed {
+    background-color: $base-color;
+}
+
+#gridMonitoring .x-btn-pressed {
+    background-color: $base-color;
+}
+
+#app-header .x-form-text-field-body-default{
+  min-width: unset;
+}

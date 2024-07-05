@@ -1,0 +1,105 @@
+.ol-popup {
+    position: absolute !important;
+    background-color: white;
+    -webkit-filter: drop-shadow(0 1px 4px rgba(0,0,0,0.2));
+    filter: drop-shadow(0 1px 4px rgba(0,0,0,0.2));
+    // padding: 12px;
+    border-radius: 10px;
+    border: 1px solid #cccccc;
+    bottom: 20px;
+    left: -50px;
+    min-width: 280px;
+    overflow: visible !important;
+
+    .face-info {
+        font-size: 0.9em;
+        overflow: hidden;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+    }
+
+    .face-photo {
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        cursor: pointer;
+        * {
+            visibility: hidden;
+        }
+    }
+
+    .face-toolbar {
+        width: 100%;
+        padding-top: 8px;
+
+        .face-dislike, .face-like {
+            float: right;
+        }
+
+        .face-selected {
+            // width: 229px;
+            text-align: left;
+            float: left;
+        }
+
+        .face-rating {
+            width: 198px;
+            text-align: center;
+            float: left;
+        }
+
+        .face-rating-blank {
+            width: 194px;
+            height: 32px;
+            text-align: center;
+            float: left;
+        }
+
+        // .face-like {
+        //
+        // }
+    }
+}
+.ol-popup:after, .ol-popup:before {
+    top: 100%;
+    border: solid transparent;
+    content: " ";
+    height: 0;
+    width: 0;
+    position: absolute !important;
+    pointer-events: none;
+}
+.ol-popup:after {
+    border-top-color: white;
+    border-width: 10px;
+    left: 48px;
+    margin-left: -10px;
+}
+.ol-popup:before {
+    border-top-color: #cccccc;
+    border-width: 11px;
+    left: 48px;
+    margin-left: -11px;
+}
+.ol-popup-closer {
+    text-decoration: none;
+    position: absolute !important;
+    top: 0;
+    right: 0;
+    z-index: 1;
+}
+.ol-popup div.ux-rating-picker {
+    padding-top: 8px;
+}
+.popup-photo {
+    max-height: 100%;
+    max-width: 100%;
+    width: auto;
+    height: auto;
+    position: absolute !important;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}

@@ -1,0 +1,110 @@
+.x-boundlist-item-disabled {
+  color: #C6C6C6 !important;
+  background-color: #FFF !important;
+  cursor: default !important;
+  border: hidden !important;
+}
+
+.x-tagfield-item .tagfield-badge {
+  color: #a1311f;
+  background-color: #FFF;
+}
+
+.x-boundlist-item-over .tagfield-badge {
+  color: #337AB7;
+  background-color: #FFF;
+}
+
+.tagfield-badge {
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  border-radius: 10px;
+  display: inline-block;
+  min-width: 10px;
+  padding: 3px 5px;
+  margin-left: 3px;
+  font-size: 8px;
+  font-weight: 700;
+  line-height: 1;
+  color: #FFF;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  background-color: #777;
+}
+
+.camp-badge {
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  border-radius: 10px;
+  display: inline-block;
+  min-width: 10px;
+  padding: 3px 5px;
+  margin-left: 0;
+  font-size: 9px;
+  font-weight: 700;
+  line-height: 1;
+  color: #FFF;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: top;
+  background-color: rgb(74, 219, 186);;
+}
+
+.tabcart-badge {
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  border-radius: 10px;
+  display: inline-block;
+  min-width: 10px;
+  padding: 3px 5px;
+  margin-left: 1px;
+  font-size: 9px;
+  font-weight: 700;
+  line-height: 1;
+  color: #FFF;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: top;
+  background-color: #CA1310;
+}
+
+.cart-badge {
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  border-radius: 10px;
+  display: inline-block;
+  min-width: 10px;
+  padding: 3px 5px;
+  margin-left: 0;
+  font-size: 9px;
+  font-weight: 700;
+  line-height: 1;
+  color: #FFF;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  background-color: #CA1310;
+}
+
+.x-btn-inner-shopping-cart-large {
+  padding: 0 !important;
+  margin-left: -5px;
+  margin-top: -20px;
+  overflow: visible !important;
+}
+
+.newpoifilter-trigger:before {
+  content: "\f067" !important;
+}
+
+#app-header-logo {
+  padding-left: 20px;
+  width: 236px;
+  height: 31px;
+  background: url(logo_bm.png) no-repeat center;
+}

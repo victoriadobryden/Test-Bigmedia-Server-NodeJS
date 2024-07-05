@@ -1,0 +1,102 @@
+.x-btn-split-right > .x-btn-icon.x-btn-no-text.x-btn-button-default-toolbar-small {
+    padding-right: 12px !important;
+}
+.bm-green {
+  color: #16b603;
+}
+.bm-red {
+  color: #e44959;
+}
+.bm-blue {
+  color: #2eadf5;
+}
+::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+    background-color: #FFFFFF;
+}
+::-webkit-scrollbar-thumb {
+    background-color: #CCC;
+    border-radius: 2px;
+}
+.grid-btn {
+  font-size: 12px !important;
+  color: #111 !important;
+  color: var(--color) !important;
+}
+.#{$prefix}tool-tool-el {
+  color: $base-color !important;
+}
+.#{$prefix}action-col-icon {
+    font-size: 12px !important;
+    height: 12px !important;
+    width: 12px !important;
+}
+.#{$prefix}splitter {
+  background: #fff;
+}
+.#{$prefix}scroller { //for firefox
+  scrollbar-color: #DDD white;
+  scrollbar-width: thin;
+}
+.#{$prefix}toolbar-default {
+    background-color: #fff !important;
+}
+.#{$prefix}form-trigger-default {
+  &::before {
+    color: #222 !important;
+    // content: '\f107' !important;
+  }
+}
+.#{$prefix}form-arrow-trigger-default {
+  font: 12px/16px 'Font Awesome 5 Free' !important;
+  color: $base-color !important;
+}
+.user-icon {
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 28px;
+  height: 28px;
+  background-image: url('https://www.gravatar.com/avatar/547e831cb19866241082584b85be3d80?d=identicon');
+}
+.#{$prefix}btn-split-right {
+  &::after {
+    color: #222 !important;
+    content: '\f107' !important;
+  }
+}
+.#{$prefix}btn-arrow-right {
+  &::after {
+    color: #222 !important;
+    content: '\f107' !important;
+  }
+}
+.#{$prefix}tab-default {
+  text-transform: none !important;
+}
+.#{$prefix}btn-inner {
+  text-transform: none !important;
+}
+.searchIcon {
+  .x-form-trigger-default:before {
+    content: $fa-var-search !important;
+  }
+}
+.#{$prefix}form-field-date {
+    .#{$prefix}form-date-trigger {
+        @if $enable-font-icons and ($form-date-trigger-glyph != null) {
+            @include font-icon($form-date-trigger-glyph, $line-height: #{$line-height});
+        } @else {
+            background-image: theme-background-image('form/date-trigger');
+
+            @if $include-rtl {
+                &.#{$prefix}rtl {
+                    background-image: theme-background-image('form/date-trigger-rtl');
+                }
+            }
+        }
+    }
+}
+.#{$prefix}form-trigger-default {
+    font: 16px/23px 'Material Icons', 'Font Awesome 5 Free' !important;
+}

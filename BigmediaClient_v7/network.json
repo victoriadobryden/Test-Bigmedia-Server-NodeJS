@@ -1,0 +1,10 @@
+[
+  {"id":"522","name_ru":"Остановка","name_ukr":"Зупинка","name_en":"Bus Shelter"},
+  {"id":"487","name_ru":"Ситилайт","name_ukr":"Сітілайт","name_en":"Citylight"},
+  {"id":"488","name_ru":"Скролл","name_ukr":"Скрол","name_en":"Scroll"},
+  {"id":"489","name_ru":"Бэклайт","name_ukr":"Беклайт","name_en":"Backlight"},
+  {"id":"490","name_ru":"Мост/арка","name_ukr":"Мост/арка","name_en":"Bridge"},
+  {"id":"491","name_ru":"Нестандарт","name_ukr":"Нестандарт","name_en":"Nonstandard"},
+  {"id":"492","name_ru":"Призма","name_ukr":"Призма","name_en":"Prizmavision"},
+  {"id":"493","name_ru":"Щит","name_ukr":"Щит","name_en":"Board"}
+]

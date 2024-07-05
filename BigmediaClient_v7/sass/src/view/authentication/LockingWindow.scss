@@ -1,0 +1,25 @@
+.auth-dialog .link-text .x-btn-inner-default-small {
+    color: #0397d6;
+}
+
+.auth-dialog .link-text {
+    line-height: 32px;
+    color: #0397d6;
+    text-decoration: none;
+    margin-left: 5px;
+    background-color: transparent;
+    border: none;
+}
+
+.auth-locked-window{
+    .x-window-body {
+      background-image:url('lock-screen-background.jpg');
+      background-size:cover;
+      background-repeat:repeat;
+    }
+      &.x-window-default{
+        border: none;
+        border-radius: 0;
+        padding: 0;
+      }
+}

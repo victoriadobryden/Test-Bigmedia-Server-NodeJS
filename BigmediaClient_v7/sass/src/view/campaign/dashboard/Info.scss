@@ -1,0 +1,34 @@
+.campinfo-panel {
+    background: #fff;
+}
+
+.campinfo-container {
+    font-size: 4em;
+    float: left;
+    height: 100%;
+    width: 100px;
+    float: left;
+    background: #82d9EA;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: ghostwhite;
+}
+
+.campinfo-details-container > div {
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    line-height: 25px;
+}
+
+.campinfo-details-container {
+    color: $progress-bar-background-color;
+    padding: 20px;
+    overflow: hidden;
+
+    :first-child{
+        font-size: 30px;
+        line-height: 30px;
+    }
+}

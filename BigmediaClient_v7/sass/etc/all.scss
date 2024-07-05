@@ -1,0 +1,385 @@
+@mixin btn-border($background-color){
+  background-color: $background-color;
+  border-color: $background-color !important;
+  .x-btn-inner-default-toolbar-small{
+    color: $lightest-color;
+  }
+  &:hover{
+    .x-btn-inner-default-toolbar-small,.x-btn-inner-default-small{
+      color: $background-color;
+    }
+    .x-btn-icon-el-default-small,.x-btn-icon-el-default-toolbar-small{
+      color: $background-color;
+    }
+    background-color: transparent;
+  }
+}
+
+@mixin border-radius($radius) {
+  -webkit-border-radius: $radius;
+  -moz-border-radius: $radius;
+  -ms-border-radius: $radius;
+  border-radius: $radius;
+}
+
+@mixin box-shadow($h-shadow,$v-shadow,$blur,$spread,$shadow-color) {
+  -webkit-box-shadow: $h-shadow $v-shadow $blur $spread $shadow-color;
+  -moz-box-shadow: $h-shadow $v-shadow $blur $spread $shadow-color;
+  -ms-box-shadow: $h-shadow $v-shadow $blur $spread $shadow-color;
+  box-shadow: $h-shadow $v-shadow $blur $spread $shadow-color;
+}
+
+*:focus {
+  outline:0 !important;
+}
+
+.shadow-panel, .x-menu-header {
+  z-index: 0 !important;
+}
+
+.shadow-panel{
+  @include box-shadow(0, 1px, 2px, 0, rgba(0,0,0,0.2));
+
+}
+
+.x-css-shadow{
+  box-shadow:none !important;
+}
+
+.x-fa {
+  display: inline-block;
+  font: normal normal normal 14px/1 $font-family;
+}
+
+.alignRight {
+  float: right;
+}
+
+.boldFont {
+  font-weight: bold;
+}
+
+.poi-aeroway-aerodrome {
+  background-image: url(images/symbols/aeroway/aerodrome.svg) !important;
+}
+.poi-amenity-bank {
+  background-image: url(images/symbols/amenity/bank.svg) !important;
+}
+.poi-amenity-bar {
+  background-image: url(images/symbols/amenity/bar.svg) !important;
+}
+.poi-amenity-biergarten {
+  background-image: url(images/symbols/amenity/biergarten.svg) !important;
+}
+.poi-amenity-bureau_de_change {
+  background-image: url(images/symbols/amenity/bureau_de_change.svg) !important;
+}
+.poi-amenity-bus_station {
+  background-image: url(images/symbols/amenity/bus_station.svg) !important;
+}
+.poi-amenity-cafe {
+  background-image: url(images/symbols/amenity/cafe.svg) !important;
+}
+.poi-amenity-car_wash {
+  background-image: url(images/symbols/amenity/car_wash.svg) !important;
+}
+.poi-amenity-cinema {
+  background-image: url(images/symbols/amenity/cinema.svg) !important;
+}
+.poi-amenity-college {
+  background-image: url(images/symbols/amenity/college.svg) !important;
+}
+.poi-amenity-dentist {
+  background-image: url(images/symbols/amenity/dentist.svg) !important;
+}
+.poi-amenity-doctors {
+  background-image: url(images/symbols/amenity/doctors.svg) !important;
+}
+.poi-amenity-educational_institution {
+  background-image: url(images/symbols/amenity/educational_institution.svg) !important;
+}
+.poi-amenity-embassy {
+  background-image: url(images/symbols/amenity/embassy.svg) !important;
+}
+.poi-amenity-fast_food {
+  background-image: url(images/symbols/amenity/fast_food.svg) !important;
+}
+.poi-amenity-fuel {
+  background-image: url(images/symbols/amenity/fuel.svg) !important;
+}
+.poi-amenity-hospital {
+  background-image: url(images/symbols/amenity/hospital.svg) !important;
+}
+.poi-amenity-internet_cafe {
+  background-image: url(images/symbols/amenity/internet_cafe.svg) !important;
+}
+.poi-amenity-kindergarten {
+  background-image: url(images/symbols/amenity/kindergarten.svg) !important;
+}
+.poi-amenity-nightclub {
+  background-image: url(images/symbols/amenity/nightclub.svg) !important;
+}
+.poi-amenity-pharmacy {
+  background-image: url(images/symbols/amenity/pharmacy.svg) !important;
+}
+.poi-amenity-post_office {
+  background-image: url(images/symbols/amenity/post_office.svg) !important;
+}
+.poi-amenity-pub {
+  background-image: url(images/symbols/amenity/pub.svg) !important;
+}
+.poi-amenity-restaurant {
+  background-image: url(images/symbols/amenity/restaurant.svg) !important;
+}
+.poi-amenity-school {
+  background-image: url(images/symbols/amenity/school.svg) !important;
+}
+.poi-amenity-theatre {
+  background-image: url(images/symbols/amenity/theatre.svg) !important;
+}
+.poi-amenity-university {
+  background-image: url(images/symbols/amenity/university.svg) !important;
+}
+.poi-amenity-vehicle_inspection {
+  background-image: url(images/symbols/amenity/vehicle_inspection.svg) !important;
+}
+.poi-amenity-veterinary {
+  background-image: url(images/symbols/amenity/veterinary.svg) !important;
+}
+.poi-highway-bus_stop {
+  background-image: url(images/symbols/highway/bus_stop.svg) !important;
+}
+.poi-historic-castle {
+  background-image: url(images/symbols/historic/castle.svg) !important;
+}
+.poi-historic-memorial {
+  background-image: url(images/symbols/historic/memorial.svg) !important;
+}
+.poi-historic-monument {
+  background-image: url(images/symbols/historic/monument.svg) !important;
+}
+.poi-historic-ruins {
+  background-image: url(images/symbols/historic/ruins.svg) !important;
+}
+.poi-leisure-beach_resort {
+  background-image: url(images/symbols/leisure/beach_resort.svg) !important;
+}
+.poi-leisure-golf_course {
+  background-image: url(images/symbols/leisure/golf_course.svg) !important;
+}
+.poi-leisure-miniature_golf {
+  background-image: url(images/symbols/leisure/miniature_golf.svg) !important;
+}
+.poi-leisure-playground {
+  background-image: url(images/symbols/leisure/playground.svg) !important;
+}
+.poi-leisure-running {
+  background-image: url(images/symbols/leisure/running.svg) !important;
+}
+.poi-leisure-sport_other {
+  background-image: url(images/symbols/leisure/sport_other.svg) !important;
+}
+.poi-leisure-swimming_pool {
+  background-image: url(images/symbols/leisure/swimming_pool.svg) !important;
+}
+.poi-leisure-water_park {
+  background-image: url(images/symbols/leisure/water_park.svg) !important;
+}
+.poi-office-office {
+  background-image: url(images/symbols/office/office.svg) !important;
+}
+.poi-railway-other {
+  background-image: url(images/symbols/railway/other.svg) !important;
+}
+.poi-railway-subway_entrance {
+  background-image: url(images/symbols/railway/subway_entrance.svg) !important;
+}
+.poi-shop-alcohol {
+  background-image: url(images/symbols/shop/alcohol.svg) !important;
+}
+.poi-shop-bag {
+  background-image: url(images/symbols/shop/bag.svg) !important;
+}
+.poi-shop-bakery {
+  background-image: url(images/symbols/shop/bakery.svg) !important;
+}
+.poi-shop-beauty {
+  background-image: url(images/symbols/shop/beauty.svg) !important;
+}
+.poi-shop-bed {
+  background-image: url(images/symbols/shop/bed.svg) !important;
+}
+.poi-shop-beverages {
+  background-image: url(images/symbols/shop/beverages.svg) !important;
+}
+.poi-shop-bicycle {
+  background-image: url(images/symbols/shop/bicycle.svg) !important;
+}
+.poi-shop-books {
+  background-image: url(images/symbols/shop/books.svg) !important;
+}
+.poi-shop-butcher {
+  background-image: url(images/symbols/shop/butcher.svg) !important;
+}
+.poi-shop-car {
+  background-image: url(images/symbols/shop/car.svg) !important;
+}
+.poi-shop-car_parts {
+  background-image: url(images/symbols/shop/car_parts.svg) !important;
+}
+.poi-shop-car_repair {
+  background-image: url(images/symbols/shop/car_repair.svg) !important;
+}
+.poi-shop-chemist {
+  background-image: url(images/symbols/shop/chemist.svg) !important;
+}
+.poi-shop-clothes {
+  background-image: url(images/symbols/shop/clothes.svg) !important;
+}
+.poi-shop-computer {
+  background-image: url(images/symbols/shop/computer.svg) !important;
+}
+.poi-shop-confectionery {
+  background-image: url(images/symbols/shop/confectionery.svg) !important;
+}
+.poi-shop-convenience {
+  background-image: url(images/symbols/shop/convenience.svg) !important;
+}
+.poi-shop-department_store {
+  background-image: url(images/symbols/shop/department_store.svg) !important;
+}
+.poi-shop-doityourself {
+  background-image: url(images/symbols/shop/doityourself.svg) !important;
+}
+.poi-shop-dry_cleaning {
+  background-image: url(images/symbols/shop/dry_cleaning.svg) !important;
+}
+.poi-shop-electronics {
+  background-image: url(images/symbols/shop/electronics.svg) !important;
+}
+.poi-shop-fabric {
+  background-image: url(images/symbols/shop/fabric.svg) !important;
+}
+.poi-shop-florist {
+  background-image: url(images/symbols/shop/florist.svg) !important;
+}
+.poi-shop-furniture {
+  background-image: url(images/symbols/shop/furniture.svg) !important;
+}
+.poi-shop-garden_centre {
+  background-image: url(images/symbols/shop/garden_centre.svg) !important;
+}
+.poi-shop-gift {
+  background-image: url(images/symbols/shop/gift.svg) !important;
+}
+.poi-shop-greengrocer {
+  background-image: url(images/symbols/shop/greengrocer.svg) !important;
+}
+.poi-shop-hairdresser {
+  background-image: url(images/symbols/shop/hairdresser.svg) !important;
+}
+.poi-shop-hifi {
+  background-image: url(images/symbols/shop/hifi.svg) !important;
+}
+.poi-shop-houseware {
+  background-image: url(images/symbols/shop/houseware.svg) !important;
+}
+.poi-shop-interior_decoration {
+  background-image: url(images/symbols/shop/interior_decoration.svg) !important;
+}
+.poi-shop-jewelry {
+  background-image: url(images/symbols/shop/jewelry.svg) !important;
+}
+.poi-shop-mall {
+  background-image: url(images/symbols/shop/mall.svg) !important;
+}
+.poi-shop-marketplace {
+  background-image: url(images/symbols/shop/marketplace.svg) !important;
+}
+.poi-shop-massage {
+  background-image: url(images/symbols/shop/massage.svg) !important;
+}
+.poi-shop-mobile_phone {
+  background-image: url(images/symbols/shop/mobile_phone.svg) !important;
+}
+.poi-shop-motorcycle {
+  background-image: url(images/symbols/shop/motorcycle.svg) !important;
+}
+.poi-shop-musical_instrument {
+  background-image: url(images/symbols/shop/musical_instrument.svg) !important;
+}
+.poi-shop-optician {
+  background-image: url(images/symbols/shop/optician.svg) !important;
+}
+.poi-shop-organic {
+  background-image: url(images/symbols/shop/organic.svg) !important;
+}
+.poi-shop-other {
+  background-image: url(images/symbols/shop/other.svg) !important;
+}
+.poi-shop-outdoor {
+  background-image: url(images/symbols/shop/outdoor.svg) !important;
+}
+.poi-shop-perfumery {
+  background-image: url(images/symbols/shop/perfumery.svg) !important;
+}
+.poi-shop-pet {
+  background-image: url(images/symbols/shop/pet.svg) !important;
+}
+.poi-shop-seafood {
+  background-image: url(images/symbols/shop/seafood.svg) !important;
+}
+.poi-shop-shoes {
+  background-image: url(images/symbols/shop/shoes.svg) !important;
+}
+.poi-shop-sports {
+  background-image: url(images/symbols/shop/sports.svg) !important;
+}
+.poi-shop-stationery {
+  background-image: url(images/symbols/shop/stationery.svg) !important;
+}
+.poi-shop-supermarket {
+  background-image: url(images/symbols/shop/supermarket.svg) !important;
+}
+.poi-shop-tea {
+  background-image: url(images/symbols/shop/tea.svg) !important;
+}
+.poi-shop-ticket {
+  background-image: url(images/symbols/shop/ticket.svg) !important;
+}
+.poi-shop-tobacco {
+  background-image: url(images/symbols/shop/tobacco.svg) !important;
+}
+.poi-shop-toys {
+  background-image: url(images/symbols/shop/toys.svg) !important;
+}
+.poi-shop-travel_agency {
+  background-image: url(images/symbols/shop/travel_agency.svg) !important;
+}
+.poi-shop-tyres {
+  background-image: url(images/symbols/shop/tyres.svg) !important;
+}
+.poi-tourism-artwork {
+  background-image: url(images/symbols/tourism/artwork.svg) !important;
+}
+.poi-tourism-attraction {
+  background-image: url(images/symbols/tourism/attraction.svg) !important;
+}
+.poi-tourism-guest_house {
+  background-image: url(images/symbols/tourism/guest_house.svg) !important;
+}
+.poi-tourism-hostel {
+  background-image: url(images/symbols/tourism/hostel.svg) !important;
+}
+.poi-tourism-hotel {
+  background-image: url(images/symbols/tourism/hotel.svg) !important;
+}
+.poi-tourism-motel {
+  background-image: url(images/symbols/tourism/motel.svg) !important;
+}
+.poi-tourism-museum {
+  background-image: url(images/symbols/tourism/museum.svg) !important;
+}
+.poi-tourism-other {
+  background-image: url(images/symbols/tourism/other.svg) !important;
+}

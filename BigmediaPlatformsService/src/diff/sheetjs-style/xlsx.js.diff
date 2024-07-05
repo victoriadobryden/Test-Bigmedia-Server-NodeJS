@@ -1,0 +1,6 @@
+13281a13282
+> 	panel = (typeof ws['!freeze'] != undefined )? writextag("pane", null, ws['!freeze'] ) : null;
+13284c13285
+< 	return writextag("sheetViews", writextag("sheetView", null, sview), {});
+---
+> 	return writextag("sheetViews", writextag("sheetView", panel, sview), {});

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<project name="Bigmedia" default=".help">
+    <!--
+    The build-impl.xml file imported here contains the guts of the build process. It is
+    a great idea to read that file to understand how the process works, but it is best to
+    limit your changes to this file.
+    -->
+    <import file="${basedir}/.sencha/app/build-impl.xml"/>
+
+    <!--
+    The following targets can be provided to inject logic before and/or after key steps
+    of the build process:
+
+        The "init-local" target is used to initialize properties that may be personalized
+        for the local machine.
+
+            <target name="-before-init-local"/>
+            <target name="-after-init-local"/>
+
+        The "clean" target is used to clean build output from the build.dir.
+
+            <target name="-before-clean"/>
+            <target name="-after-clean"/>
+
+        The general "init" target is used to initialize all other properties, including
+        those provided by Sencha Cmd.
+
+            <target name="-before-init"/>
+            <target name="-after-init"/>
+
+        The "page" target performs the call to Sencha Cmd to build the 'all-classes.js' file.
+
+            <target name="-before-page"/>
+            <target name="-after-page"/>
+
+        The "build" target performs the call to Sencha Cmd to build the application.
+
+            <target name="-before-build"/>
+            <target name="-after-build"/>
+    -->
+    <target name="-after-build">
+      <copy file="${app.dir}/packages/local/xlsx/jszip.js" tofile="${build.dir}/packages/local/xlsx/jszip.js" overwrite="true" />
+      <copy file="${app.dir}/packages/local/xlsx/xlsx.adopted.js" tofile="${build.dir}/packages/local/xlsx/xlsx.adopted.js" overwrite="true" />
+    	<copy file="${app.dir}/packages/local/js-md5/build/md5.min.js" tofile="${build.dir}/packages/local/js-md5/build/md5.min.js" overwrite="true" />
+      <copy file="${app.dir}/packages/local/qrcode/qrcode.min.js" tofile="${build.dir}/packages/local/qrcode/qrcode.min.js" overwrite="true" />
+      <copy file="${app.dir}/poicategorytree.json" tofile="${build.dir}/poicategorytree.json" overwrite="true" />
+    	<copy file="${app.dir}/city_boundary.json" tofile="${build.dir}/city_boundary.json" overwrite="true" />
+      <copy file="${app.dir}/packages/local/workers/loadfaces.min.js" tofile="${build.dir}/packages/local/workers/loadfaces.min.js" overwrite="true" />
+      <copy file="${app.dir}/packages/local/xlsx/xlsxworker.js" tofile="${build.dir}/packages/local/xlsx/xlsxworker.js" overwrite="true" />
+      <copy file="${app.dir}/packages/local/autoplan/prepare.min.js" tofile="${build.dir}/packages/local/autoplan/prepare.min.js" overwrite="true" />
+      <copy file="${app.dir}/packages/local/autoplan/plancity.min.js" tofile="${build.dir}/packages/local/autoplan/plancity.min.js" overwrite="true" />
+      <copy file="${app.dir}/packages/local/autoplan/autoplan.min.js" tofile="${build.dir}/packages/local/autoplan/autoplan.min.js" overwrite="true" />
+    </target>
+
+</project>

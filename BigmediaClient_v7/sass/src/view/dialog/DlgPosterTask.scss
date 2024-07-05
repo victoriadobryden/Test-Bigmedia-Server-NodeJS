@@ -1,0 +1,88 @@
+$items-spacing: 10px;
+
+.poster-preview-100 {
+    width: calc(100% - #{$items-spacing});
+    max-width: 1000px;
+    float: left;
+}
+
+.x-grid-td {
+    vertical-align: middle;
+}
+
+.poster-picture-bg {
+    width: 100%;
+    height: 100%;
+    background-size: contain;
+    background-color: #8dc153;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    // float: left;
+}
+
+.poster-dataview {
+    padding: $items-spacing 0 0 $items-spacing;
+}
+
+.shadow {
+    -webkit-box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.2);
+    -moz-box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.2);
+    -ms-box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.2);
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.2);
+}
+
+.poster-dataitem {
+    cursor: pointer;
+    margin: 0 $items-spacing $items-spacing 0;
+    float: left;
+    position: relative;
+}
+
+.posterview-item {
+    height: 300px;
+    font-weight: bold;
+}
+
+.poster-toolbar {
+    width: 100%;
+    display: flex;
+    bottom: 0px;
+    position: absolute;
+}
+
+.poster-stat {
+    text-align: center;
+    float: left;
+    flex: 1 0 auto;
+}
+
+.poster-name {
+    width: 100%;
+    text-align: center;
+    font-size: 2em;
+    line-height: 1.7em;
+    font-weight: bold;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    // text-overflow: ellipsis;
+    // white-space: nowrap;
+    // overflow: hidden;
+}
+
+.poster-info {
+    width: 100%;
+    height: 100px;
+    bottom: 0px;
+    position: absolute;
+    opacity: 0.7;
+    background-color: #fff;
+}
+
+.poster-info > * {
+    color: #000;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    opacity: 1;
+}

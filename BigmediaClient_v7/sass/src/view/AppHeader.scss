@@ -1,0 +1,42 @@
+@include extjs-button-large-ui(
+$ui: 'shopping-cart',
+$line-height: 34px,
+$background-color: transparent,
+$border-width: 0,
+$color: $color-gray,
+$glyph-color: $color-gray
+);
+@include extjs-button-large-ui(
+$ui: 'user-menu',
+$line-height: 34px,
+$background-color: transparent,
+$border-width: 0,
+$text-padding: 0,
+$icon-size: 0,
+$icon-spacing: 0,
+$split-width: 0,
+$split-line-width: 0,
+$color: $color-gray,
+$glyph-color: $color-gray
+);
+@include extjs-button-large-ui(
+$ui: 'faces',
+$line-height: 34px,
+$background-color: transparent,
+$border-width: 0,
+$color: $color-gray,
+$glyph-color: $color-gray
+);
+@include extjs-button-large-ui(
+$ui: 'campaigns',
+$line-height: 34px,
+$background-color: transparent,
+$border-width: 0,
+$color: $color-gray,
+$glyph-color: $color-gray
+);
+
+#app-header .x-btn-pressed {
+    padding: 4px 9px 9px 9px;
+    border-width: 5px 0px 0px 0px;
+}

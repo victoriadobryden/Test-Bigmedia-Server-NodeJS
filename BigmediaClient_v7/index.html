@@ -1,0 +1,166 @@
+<!DOCTYPE HTML>
+<html manifest="">
+<head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <link rel="shortcut icon" href= "resources/bma.png" ) >
+    <title>Bigmedia</title>
+    <!-- <script src="https://api.mapbox.com/mapbox-gl-js/v1.7.0/mapbox-gl.js"></script>
+    <script src='https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-language/v0.10.1/mapbox-gl-language.js'></script>
+    <link href="https://api.mapbox.com/mapbox-gl-js/v1.7.0/mapbox-gl.css" rel="stylesheet" /> -->
+    <!-- <script src="https://cdn.maptiler.com/ol/v6.0.0/ol.js"></script> -->
+    <!-- <script src="https://cdn.maptiler.com/ol-mapbox-style/v5.0.2/olms.js"></script> -->
+    <!-- <link rel="stylesheet" href="https://cdn.maptiler.com/ol/v6.0.0/ol.css"> -->
+    <style>
+    body {
+        overflow:hidden
+    }
+    #preload {
+        z-index:10000
+    }
+    #preload .preload-north {
+        position:absolute;
+        top:0;
+        right:0;
+        left:0;
+        height:64px;
+        border-bottom:1px solid #bcbcbc;
+        background: url(resources/logo_bm.png) #e6e6e6 no-repeat;
+        background-position: 50% 50%;
+        background-size: 250px;
+    }
+    #preload .preload-center  {
+        position:absolute;
+        top:64x;
+        right:0;
+        bottom:0;
+        left:0;
+        background:white
+    }
+    #preload #loading-mask,#preload #loading-mask:before,#preload #loading-mask:after {
+        background:#e6e6e6;
+        width:1em;
+        height:4em;
+        -webkit-animation:preload-loading-keyframes 1s infinite ease-in-out;
+        animation:preload-loading-keyframes 1s infinite ease-in-out
+    }
+    #preload #loading-mask:before,#preload #loading-mask:after {
+        position:absolute;
+        top:0;
+        content:''
+    }
+    #preload #loading-mask:before {
+        left:-1.5em;
+        -webkit-animation-delay:-0.32s;
+        animation-delay:-0.32s
+    }
+    #preload #loading-mask:after {
+        left:1.5em
+    }
+    #preload #loading-mask {
+        font-size:11px;
+        position:absolute;
+        top:0;
+        right:0;
+        bottom:0;
+        left:0;
+        margin:auto;
+        -webkit-transform:translateZ(0);
+        -ms-transform:translateZ(0);
+        transform:translateZ(0);
+        -webkit-animation-delay:-0.16s;
+        animation-delay:-0.16s
+    }
+    @-webkit-keyframes preload-loading-keyframes {
+        0%,80%,100% {
+            box-shadow:0 0 #e6e6e6;
+            height:4em
+        }
+        40% {
+            box-shadow:0 -2em #e6e6e6;
+            height:5em
+        }
+    }
+    @keyframes preload-loading-keyframes {
+        0%,80%,100% {
+            box-shadow:0 0 #e6e6e6;
+            height:4em
+        }
+        40% {
+            box-shadow:0 -2em #e6e6e6;
+            height:5em
+        }
+    }
+    </style>
+
+  <!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-M7T6VRH');</script>
+<!-- End Google Tag Manager -->
+
+    <script type="text/javascript">
+        var Ext = Ext || {}; // Ext namespace won't be defined yet...
+
+        // This function is called by the Microloader after it has performed basic
+        // device detection. The results are provided in the "tags" object. You can
+        // use these tags here or even add custom tags. These can be used by platform
+        // filters in your manifest or by platformConfig expressions in your app.
+        //
+        Ext.beforeLoad = function (tags) {
+            var s = location.search,  // the query string (ex "?foo=1&bar")
+                profile,
+                locale = location.href.match(/locale=([\w-]+)/);
+
+            locale = (locale && locale[1]) || 'ukr';
+
+            // For testing look for "?classic" or "?modern" in the URL to override
+            // device detection default.
+            //
+            // if (s.match(/\bclassic\b/)) {
+                profile = 'classic';
+            // }
+            // else if (s.match(/\bmodern\b/)) {
+            //     profile = 'modern';
+            // }
+            // else {
+            //     profile = tags.desktop ? 'classic' : 'modern';
+            //     //profile = tags.phone ? 'modern' : 'classic';
+            // }
+
+            Ext.manifest = profile + "-" + locale; // this name must match a build profile name
+
+            // This function is called once the manifest is available but before
+            // any data is pulled from it.
+            //
+            //return function (manifest) {
+                // peek at / modify the manifest object
+            //};
+        };
+    </script>
+
+    <!-- The line below must be kept intact for Sencha Cmd to build your application -->
+    <script id="microloader" data-app="e9eed097-c95e-4101-86ef-6cddf57ce07b" type="text/javascript" src="bootstrap.js"></script>
+
+
+</head>
+<body>
+  <!-- Google Tag Manager (noscript) -->
+  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-M7T6VRH"
+  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+  <!-- End Google Tag Manager (noscript) -->
+    <div id="preload">
+        <div class="preload-north"></div>
+        <div class="preload-center"></div>
+        <div id="loading-mask"></div>
+    </div>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBuVlgRu_Xduw4J5DYvtnu_On-2XZ_YSHo&libraries=places" async></script>
+<!-- Oleg Morskov -->
+<!-- <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCWY81Eq_k_eTkzdg0nUSeuLjm8dPQrMcQ&libraries=places" async></script> -->
+<!-- Oleg Morskov -->
+<!-- <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAavpJy_WExK0csPfxM6oS4x26GUUZLsRg&libraries=places" async></script> -->
+</body>
+</html>

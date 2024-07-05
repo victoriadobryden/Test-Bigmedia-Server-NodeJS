@@ -1,0 +1,15 @@
+.architect
+.idea
+.sencha
+.sencha_backup
+build/temp/
+build/testing/
+build/development/
+ext/
+app/cache/
+cache/
+*.log
+photo/
+bootstrap.*
+classic.json*
+modern.json*

@@ -1,0 +1,20 @@
+.#{$prefix}form-item-label {
+  @include transition(all 0s ease-out 0s);
+  @include transition-duration(0.3s);
+  @include transform(translateY(22px));
+
+  .#{$prefix}field-focus &,
+  .not-empty & {
+      font-size: $form-item-label-font-size;
+      @include transform(translateY(8px));
+  }
+
+  .#{$prefix}field-focus & {
+      @include transition-duration(0.3s);
+      color: $base-color;
+  }
+
+  .#{$prefix}field-focus & {
+      @include transition-duration(0.3s);
+  }
+}
